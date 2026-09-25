@@ -1,0 +1,5877 @@
+{
+  "marketplace": "wildberries",
+  "catalog_generated_at": "2026-09-25",
+  "source_snapshot_at": "2026-05-14",
+  "current_status": "not_live_verified",
+  "route_count": 290,
+  "source_count": 13,
+  "sources": [
+    {
+      "category": "general",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/01-general.yaml",
+      "sha256": "8e55075f2ed5137a0295f27cc3c1b527a99f562468264f6abcf02e518178f7a5"
+    },
+    {
+      "category": "products",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/02-products.yaml",
+      "sha256": "1a41d7adcaa5d6cc548a0696045ef3c8f76cb13683e22939e9e0900744a1d0aa"
+    },
+    {
+      "category": "orders-fbs",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/03-orders-fbs.yaml",
+      "sha256": "603bb24e4d0e5f68d2911c0080095cb5c0e9aec55272bf4d80e422f997dab9e6"
+    },
+    {
+      "category": "orders-dbw",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/04-orders-dbw.yaml",
+      "sha256": "3f493be8e00f6267919d5d1fcb922902456de2ad44eabd8347ceb55ff6ff546e"
+    },
+    {
+      "category": "orders-dbs",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/05-orders-dbs.yaml",
+      "sha256": "e96e27fec0b85c0f18649e020ab970000b22a0fdeb593cb730e7aebf36411a8c"
+    },
+    {
+      "category": "in-store-pickup",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/06-in-store-pickup.yaml",
+      "sha256": "bbd279368b87373285788539be569fd0c675222aecfbe81025a07c9a450030e5"
+    },
+    {
+      "category": "orders-fbw",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/07-orders-fbw.yaml",
+      "sha256": "db0c9e43d32e43fc5af0791ddf9caaa2b8485fff454460c206f9b82271a1a579"
+    },
+    {
+      "category": "promotion",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/08-promotion.yaml",
+      "sha256": "203bdf51d421c0f8f6d04661faa9649c0f035741ba74ddf38ac6a8055c577ff9"
+    },
+    {
+      "category": "communications",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/09-communications.yaml",
+      "sha256": "d61517598c7ee066660e21c905abbfd059925d0df8fab0a5a226ebd96ca3046d"
+    },
+    {
+      "category": "tariffs",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/10-tariffs.yaml",
+      "sha256": "09bb61eebfc0ad1d6177e5715dc7fcf48243204e482e0b5b229160cbf412cd7e"
+    },
+    {
+      "category": "analytics",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/11-analytics.yaml",
+      "sha256": "c96ba872c3df2d0ff62bdaa69c90b6a3b3a0ffd2a75f74b60757c72b49a148d5"
+    },
+    {
+      "category": "reports",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/12-reports.yaml",
+      "sha256": "b2bff89e5c20cda570f37c87cf5110396921b1a2fcf22a4524e0841fe6469144"
+    },
+    {
+      "category": "finances",
+      "url": "https://raw.githubusercontent.com/bigancientmammoth/wb-swagger/d6cb5a3ca0f2fad242ad3297926d802c45fd49c5/original/ru/13-finances.yaml",
+      "sha256": "fd23215ee78b56525bc729fb961bca6328042a5bfc263ef289f99544ec04d6d6"
+    }
+  ],
+  "routes": [
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/analytics/v1/stocks-report/wb-warehouses",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/analytics/v1/stocks-report/wb-warehouses"
+      ],
+      "summary": "Остатки на складах WB",
+      "tags": [
+        "История остатков"
+      ],
+      "operation_id": "postV1StocksReportWbWarehouses",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/analytics/v3/sales-funnel/grouped/history",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/analytics/v3/sales-funnel/grouped/history"
+      ],
+      "summary": "Статистика групп карточек товаров по дням",
+      "tags": [
+        "Воронка продаж"
+      ],
+      "operation_id": "postSalesFunnelGroupedHistory",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/analytics/v3/sales-funnel/products",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/analytics/v3/sales-funnel/products"
+      ],
+      "summary": "Статистика карточек товаров за период",
+      "tags": [
+        "Воронка продаж"
+      ],
+      "operation_id": "postSalesFunnelProducts",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/analytics/v3/sales-funnel/products/history",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/analytics/v3/sales-funnel/products/history"
+      ],
+      "summary": "Статистика карточек товаров по дням",
+      "tags": [
+        "Воронка продаж"
+      ],
+      "operation_id": "postSalesFunnelProductsHistory",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "GET",
+      "path": "/api/v2/nm-report/downloads",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/nm-report/downloads"
+      ],
+      "summary": "Получить список отчётов",
+      "tags": [
+        "Аналитика продавца CSV"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/nm-report/downloads",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/nm-report/downloads"
+      ],
+      "summary": "Создать отчёт",
+      "tags": [
+        "Аналитика продавца CSV"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "GET",
+      "path": "/api/v2/nm-report/downloads/file/{downloadId}",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/nm-report/downloads/file/{downloadId}"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Аналитика продавца CSV"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/nm-report/downloads/retry",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/nm-report/downloads/retry"
+      ],
+      "summary": "Сгенерировать отчёт повторно",
+      "tags": [
+        "Аналитика продавца CSV"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/search-report/product/orders",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/search-report/product/orders"
+      ],
+      "summary": "Заказы и позиции по поисковым запросам товара",
+      "tags": [
+        "Поисковые запросы по вашим товарам"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/search-report/product/search-texts",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/search-report/product/search-texts"
+      ],
+      "summary": "Поисковые запросы по товару",
+      "tags": [
+        "Поисковые запросы по вашим товарам"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/search-report/report",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/search-report/report"
+      ],
+      "summary": "Основная страница",
+      "tags": [
+        "Поисковые запросы по вашим товарам"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/search-report/table/details",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/search-report/table/details"
+      ],
+      "summary": "Пагинация по товарам в группе",
+      "tags": [
+        "Поисковые запросы по вашим товарам"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/search-report/table/groups",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/search-report/table/groups"
+      ],
+      "summary": "Пагинация по группам",
+      "tags": [
+        "Поисковые запросы по вашим товарам"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/stocks-report/offices",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/stocks-report/offices"
+      ],
+      "summary": "Данные по складам",
+      "tags": [
+        "История остатков"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/stocks-report/products/groups",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/stocks-report/products/groups"
+      ],
+      "summary": "Данные по группам",
+      "tags": [
+        "История остатков"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/stocks-report/products/products",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/stocks-report/products/products"
+      ],
+      "summary": "Данные по товарам",
+      "tags": [
+        "История остатков"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "analytics",
+      "method": "POST",
+      "path": "/api/v2/stocks-report/products/sizes",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v2/stocks-report/products/sizes"
+      ],
+      "summary": "Данные по размерам",
+      "tags": [
+        "История остатков"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/analytics",
+      "source_file": "11-analytics.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "DELETE",
+      "path": "/api/feedbacks/v1/pins",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/feedbacks/v1/pins"
+      ],
+      "summary": "Открепить отзывы",
+      "tags": [
+        "Закреплённые отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/feedbacks/v1/pins",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/feedbacks/v1/pins"
+      ],
+      "summary": "Список закреплённых и откреплённых отзывов",
+      "tags": [
+        "Закреплённые отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "POST",
+      "path": "/api/feedbacks/v1/pins",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/feedbacks/v1/pins"
+      ],
+      "summary": "Закрепить отзывы",
+      "tags": [
+        "Закреплённые отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/feedbacks/v1/pins/count",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/feedbacks/v1/pins/count"
+      ],
+      "summary": "Количество закреплённых и откреплённых отзывов",
+      "tags": [
+        "Закреплённые отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/feedbacks/v1/pins/limits",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/feedbacks/v1/pins/limits"
+      ],
+      "summary": "Лимиты закреплённых отзывов",
+      "tags": [
+        "Закреплённые отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "PATCH",
+      "path": "/api/v1/claim",
+      "base_urls": [
+        "https://returns-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://returns-api.wildberries.ru/api/v1/claim"
+      ],
+      "summary": "Ответ на заявку покупателя",
+      "tags": [
+        "Возвраты покупателями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/claims",
+      "base_urls": [
+        "https://returns-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://returns-api.wildberries.ru/api/v1/claims"
+      ],
+      "summary": "Заявки покупателей на возврат",
+      "tags": [
+        "Возвраты покупателями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/feedback",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedback"
+      ],
+      "summary": "Получить отзыв по ID",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/feedbacks",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedbacks"
+      ],
+      "summary": "Список отзывов",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "PATCH",
+      "path": "/api/v1/feedbacks/answer",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedbacks/answer"
+      ],
+      "summary": "Отредактировать ответ на отзыв",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "POST",
+      "path": "/api/v1/feedbacks/answer",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedbacks/answer"
+      ],
+      "summary": "Ответить на отзыв",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/feedbacks/archive",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedbacks/archive"
+      ],
+      "summary": "Список архивных отзывов",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/feedbacks/count",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedbacks/count"
+      ],
+      "summary": "Количество отзывов",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/feedbacks/count-unanswered",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedbacks/count-unanswered"
+      ],
+      "summary": "Необработанные отзывы",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "POST",
+      "path": "/api/v1/feedbacks/order/return",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/feedbacks/order/return"
+      ],
+      "summary": "Возврат товара по ID отзыва",
+      "tags": [
+        "Отзывы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/new-feedbacks-questions",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/new-feedbacks-questions"
+      ],
+      "summary": "Непросмотренные отзывы и вопросы",
+      "tags": [
+        "Вопросы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/question",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/question"
+      ],
+      "summary": "Получить вопрос по ID",
+      "tags": [
+        "Вопросы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/questions",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/questions"
+      ],
+      "summary": "Список вопросов",
+      "tags": [
+        "Вопросы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "PATCH",
+      "path": "/api/v1/questions",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/questions"
+      ],
+      "summary": "Работа с вопросами",
+      "tags": [
+        "Вопросы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/questions/count",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/questions/count"
+      ],
+      "summary": "Количество вопросов",
+      "tags": [
+        "Вопросы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/questions/count-unanswered",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/v1/questions/count-unanswered"
+      ],
+      "summary": "Неотвеченные вопросы",
+      "tags": [
+        "Вопросы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/seller/chats",
+      "base_urls": [
+        "https://buyer-chat-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://buyer-chat-api.wildberries.ru/api/v1/seller/chats"
+      ],
+      "summary": "Список чатов",
+      "tags": [
+        "Чат с покупателями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/seller/download/{id}",
+      "base_urls": [
+        "https://buyer-chat-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://buyer-chat-api.wildberries.ru/api/v1/seller/download/{id}"
+      ],
+      "summary": "Получить файл из сообщения",
+      "tags": [
+        "Чат с покупателями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "GET",
+      "path": "/api/v1/seller/events",
+      "base_urls": [
+        "https://buyer-chat-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://buyer-chat-api.wildberries.ru/api/v1/seller/events"
+      ],
+      "summary": "События чатов",
+      "tags": [
+        "Чат с покупателями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "communications",
+      "method": "POST",
+      "path": "/api/v1/seller/message",
+      "base_urls": [
+        "https://buyer-chat-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://buyer-chat-api.wildberries.ru/api/v1/seller/message"
+      ],
+      "summary": "Отправить сообщение",
+      "tags": [
+        "Чат с покупателями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/user-communication",
+      "source_file": "09-communications.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "POST",
+      "path": "/api/finance/v1/acquiring/detailed",
+      "base_urls": [
+        "https://finance-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://finance-api.wildberries.ru/api/finance/v1/acquiring/detailed"
+      ],
+      "summary": "Детализации к отчётам об издержках на приём платежей за период",
+      "tags": [
+        "Финансовые отчёты"
+      ],
+      "operation_id": "postV1AcquiringDetailed",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "POST",
+      "path": "/api/finance/v1/acquiring/detailed/{reportId}",
+      "base_urls": [
+        "https://finance-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://finance-api.wildberries.ru/api/finance/v1/acquiring/detailed/{reportId}"
+      ],
+      "summary": "Детализации к отчётам об издержках на приём платежей по ID отчётов",
+      "tags": [
+        "Финансовые отчёты"
+      ],
+      "operation_id": "postV1AcquiringDetailedReportId",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "POST",
+      "path": "/api/finance/v1/acquiring/list",
+      "base_urls": [
+        "https://finance-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://finance-api.wildberries.ru/api/finance/v1/acquiring/list"
+      ],
+      "summary": "Список отчётов об издержках на приём платежей",
+      "tags": [
+        "Финансовые отчёты"
+      ],
+      "operation_id": "postV1AcquiringList",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "POST",
+      "path": "/api/finance/v1/sales-reports/detailed",
+      "base_urls": [
+        "https://finance-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://finance-api.wildberries.ru/api/finance/v1/sales-reports/detailed"
+      ],
+      "summary": "Детализации к отчётам реализации за период",
+      "tags": [
+        "Финансовые отчёты"
+      ],
+      "operation_id": "postV1SalesReportsDetailed",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "POST",
+      "path": "/api/finance/v1/sales-reports/detailed/{reportId}",
+      "base_urls": [
+        "https://finance-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://finance-api.wildberries.ru/api/finance/v1/sales-reports/detailed/{reportId}"
+      ],
+      "summary": "Детализации к отчётам реализации по ID отчётов",
+      "tags": [
+        "Финансовые отчёты"
+      ],
+      "operation_id": "postV1SalesReportsDetailedReportId",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "POST",
+      "path": "/api/finance/v1/sales-reports/list",
+      "base_urls": [
+        "https://finance-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://finance-api.wildberries.ru/api/finance/v1/sales-reports/list"
+      ],
+      "summary": "Список отчётов реализации",
+      "tags": [
+        "Финансовые отчёты"
+      ],
+      "operation_id": "postV1SalesReportsList",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "GET",
+      "path": "/api/v1/account/balance",
+      "base_urls": [
+        "https://finance-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://finance-api.wildberries.ru/api/v1/account/balance"
+      ],
+      "summary": "Получить баланс продавца",
+      "tags": [
+        "Баланс"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "GET",
+      "path": "/api/v1/documents/categories",
+      "base_urls": [
+        "https://documents-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://documents-api.wildberries.ru/api/v1/documents/categories"
+      ],
+      "summary": "Категории документов",
+      "tags": [
+        "Документы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "GET",
+      "path": "/api/v1/documents/download",
+      "base_urls": [
+        "https://documents-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://documents-api.wildberries.ru/api/v1/documents/download"
+      ],
+      "summary": "Получить документ",
+      "tags": [
+        "Документы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "POST",
+      "path": "/api/v1/documents/download/all",
+      "base_urls": [
+        "https://documents-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://documents-api.wildberries.ru/api/v1/documents/download/all"
+      ],
+      "summary": "Получить документы",
+      "tags": [
+        "Документы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "GET",
+      "path": "/api/v1/documents/list",
+      "base_urls": [
+        "https://documents-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://documents-api.wildberries.ru/api/v1/documents/list"
+      ],
+      "summary": "Список документов",
+      "tags": [
+        "Документы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "finances",
+      "method": "GET",
+      "path": "/api/v5/supplier/reportDetailByPeriod",
+      "base_urls": [
+        "https://statistics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://statistics-api.wildberries.ru/api/v5/supplier/reportDetailByPeriod"
+      ],
+      "summary": "Отчёт о продажах по реализации",
+      "tags": [
+        "Финансовые отчёты"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting",
+      "source_file": "13-finances.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "GET",
+      "path": "/api/common/v1/rating",
+      "base_urls": [
+        "https://feedbacks-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://feedbacks-api.wildberries.ru/api/common/v1/rating"
+      ],
+      "summary": "Получить рейтинг продавца",
+      "tags": [
+        "Информация о продавце"
+      ],
+      "operation_id": "getCommonV1Rating",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "GET",
+      "path": "/api/common/v1/subscriptions",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/common/v1/subscriptions"
+      ],
+      "summary": "Получить информацию о подписке Джем",
+      "tags": [
+        "Информация о продавце"
+      ],
+      "operation_id": "getCommonV1Subscriptions",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "GET",
+      "path": "/api/communications/v2/news",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/communications/v2/news"
+      ],
+      "summary": "Получение новостей портала продавцов",
+      "tags": [
+        "API новостей"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "POST",
+      "path": "/api/v1/invite",
+      "base_urls": [
+        "https://user-management-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://user-management-api.wildberries.ru/api/v1/invite"
+      ],
+      "summary": "Создать приглашение для нового пользователя",
+      "tags": [
+        "Управление пользователями продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "GET",
+      "path": "/api/v1/seller-info",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/v1/seller-info"
+      ],
+      "summary": "Получить информацию о продавце",
+      "tags": [
+        "Информация о продавце"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "DELETE",
+      "path": "/api/v1/user",
+      "base_urls": [
+        "https://user-management-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://user-management-api.wildberries.ru/api/v1/user"
+      ],
+      "summary": "Удалить пользователя",
+      "tags": [
+        "Управление пользователями продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "GET",
+      "path": "/api/v1/users",
+      "base_urls": [
+        "https://user-management-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://user-management-api.wildberries.ru/api/v1/users"
+      ],
+      "summary": "Получить список активных или приглашённых пользователей продавца",
+      "tags": [
+        "Управление пользователями продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "PUT",
+      "path": "/api/v1/users/access",
+      "base_urls": [
+        "https://user-management-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://user-management-api.wildberries.ru/api/v1/users/access"
+      ],
+      "summary": "Изменить права доступа пользователей",
+      "tags": [
+        "Управление пользователями продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "general",
+      "method": "GET",
+      "path": "/ping",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/ping"
+      ],
+      "summary": "Проверка подключения",
+      "tags": [
+        "Проверка подключения к WB API"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/api-information",
+      "source_file": "01-general.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/meta/delete",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/meta/delete"
+      ],
+      "summary": "Удалить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/meta/gtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/meta/gtin"
+      ],
+      "summary": "Закрепить GTIN за сборочными заданиями",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/meta/imei",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/meta/imei"
+      ],
+      "summary": "Закрепить IMEI за сборочными заданиями",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/meta/info",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/meta/info"
+      ],
+      "summary": "Получить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/meta/sgtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/meta/sgtin"
+      ],
+      "summary": "Закрепить коды маркировки Честного знака за сборочными заданиями",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/meta/uin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/meta/uin"
+      ],
+      "summary": "Закрепить УИН за сборочными заданиями",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/status/cancel",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/status/cancel"
+      ],
+      "summary": "Отменить сборочные задания",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/status/confirm",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/status/confirm"
+      ],
+      "summary": "Перевести сборочные задания на сборку",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/status/info",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/status/info"
+      ],
+      "summary": "Получить статусы сборочных заданий",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/status/prepare",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/status/prepare"
+      ],
+      "summary": "Сообщить, что сборочные задания готовы к выдаче",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/status/receive",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/status/receive"
+      ],
+      "summary": "Сообщить, что заказы приняты покупателями",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/marketplace/v3/click-collect/orders/status/reject",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/click-collect/orders/status/reject"
+      ],
+      "summary": "Сообщить об отказе от заказов",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "GET",
+      "path": "/api/v3/click-collect/orders",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders"
+      ],
+      "summary": "Получить информацию о завершённых сборочных заданиях",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/v3/click-collect/orders/client",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/client"
+      ],
+      "summary": "Информация о покупателе",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/v3/click-collect/orders/client/identity",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/client/identity"
+      ],
+      "summary": "Проверить, что заказ принадлежит покупателю",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "GET",
+      "path": "/api/v3/click-collect/orders/new",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/new"
+      ],
+      "summary": "Получить список новых сборочных заданий",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "POST",
+      "path": "/api/v3/click-collect/orders/status",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/status"
+      ],
+      "summary": "Получить статусы сборочных заданий",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PATCH",
+      "path": "/api/v3/click-collect/orders/{orderId}/cancel",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/cancel"
+      ],
+      "summary": "Отменить сборочное задание",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PATCH",
+      "path": "/api/v3/click-collect/orders/{orderId}/confirm",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/confirm"
+      ],
+      "summary": "Перевести на сборку",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "DELETE",
+      "path": "/api/v3/click-collect/orders/{orderId}/meta",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/meta"
+      ],
+      "summary": "Удалить метаданные сборочного задания",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "GET",
+      "path": "/api/v3/click-collect/orders/{orderId}/meta",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/meta"
+      ],
+      "summary": "Получить метаданные сборочного задания",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PUT",
+      "path": "/api/v3/click-collect/orders/{orderId}/meta/gtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/meta/gtin"
+      ],
+      "summary": "Закрепить за сборочным заданием GTIN",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PUT",
+      "path": "/api/v3/click-collect/orders/{orderId}/meta/imei",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/meta/imei"
+      ],
+      "summary": "Закрепить за сборочным заданием IMEI",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PUT",
+      "path": "/api/v3/click-collect/orders/{orderId}/meta/sgtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/meta/sgtin"
+      ],
+      "summary": "Закрепить за сборочным заданием код маркировки товара",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PUT",
+      "path": "/api/v3/click-collect/orders/{orderId}/meta/uin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/meta/uin"
+      ],
+      "summary": "Закрепить за сборочным заданием УИН (уникальный идентификационный номер)",
+      "tags": [
+        "Метаданные Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PATCH",
+      "path": "/api/v3/click-collect/orders/{orderId}/prepare",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/prepare"
+      ],
+      "summary": "Сообщить, что сборочное задание готово к выдаче",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PATCH",
+      "path": "/api/v3/click-collect/orders/{orderId}/receive",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/receive"
+      ],
+      "summary": "Сообщить, что заказ принят покупателем",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "in-store-pickup",
+      "method": "PATCH",
+      "path": "/api/v3/click-collect/orders/{orderId}/reject",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/click-collect/orders/{orderId}/reject"
+      ],
+      "summary": "Сообщить, что покупатель отказался от заказа",
+      "tags": [
+        "Сборочные задания Самовывоз"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/in-store-pickup",
+      "source_file": "06-in-store-pickup.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/b2b/info",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/b2b/info"
+      ],
+      "summary": "Информация о покупателе B2B",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/customs-declaration",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/customs-declaration"
+      ],
+      "summary": "Закрепить за сборочными заданиями номер ГТД",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/delete",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/delete"
+      ],
+      "summary": "Удалить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/details",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/details"
+      ],
+      "summary": "Получить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/gtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/gtin"
+      ],
+      "summary": "Закрепить GTIN за сборочными заданиями",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/imei",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/imei"
+      ],
+      "summary": "Закрепить IMEI за сборочными заданиями",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/info",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/info"
+      ],
+      "summary": "Получить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/sgtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/sgtin"
+      ],
+      "summary": "Закрепить коды маркировки Честного знака за сборочными заданиями",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/meta/uin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/meta/uin"
+      ],
+      "summary": "Закрепить УИН за сборочными заданиями",
+      "tags": [
+        "Метаданные DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/status/cancel",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/status/cancel"
+      ],
+      "summary": "Отменить сборочные задания",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/status/confirm",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/status/confirm"
+      ],
+      "summary": "Перевести сборочные задания на сборку",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/status/deliver",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/status/deliver"
+      ],
+      "summary": "Перевести сборочные задания в доставку",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/status/info",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/status/info"
+      ],
+      "summary": "Получить статусы сборочных заданий",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/status/receive",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/status/receive"
+      ],
+      "summary": "Сообщить о получении заказов",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/status/reject",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/status/reject"
+      ],
+      "summary": "Сообщить об отказе от заказов",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbs/orders/stickers",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbs/orders/stickers"
+      ],
+      "summary": "Получить стикеры для сборочных заданий с доставкой в ПВЗ",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/v3/dbs/groups/info",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbs/groups/info"
+      ],
+      "summary": "Получить информацию о платной доставке",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "GET",
+      "path": "/api/v3/dbs/orders",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbs/orders"
+      ],
+      "summary": "Получить информацию о завершенных сборочных заданиях",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/v3/dbs/orders/client",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbs/orders/client"
+      ],
+      "summary": "Информация о покупателе",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "POST",
+      "path": "/api/v3/dbs/orders/delivery-date",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbs/orders/delivery-date"
+      ],
+      "summary": "Дата и время доставки",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbs",
+      "method": "GET",
+      "path": "/api/v3/dbs/orders/new",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbs/orders/new"
+      ],
+      "summary": "Получить список новых сборочных заданий",
+      "tags": [
+        "Сборочные задания DBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbs",
+      "source_file": "05-orders-dbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbw/orders/client",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbw/orders/client"
+      ],
+      "summary": "Информация о покупателе",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbw/orders/meta/delete",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbw/orders/meta/delete"
+      ],
+      "summary": "Удалить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbw/orders/meta/details",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbw/orders/meta/details"
+      ],
+      "summary": "Получить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbw/orders/meta/sgtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbw/orders/meta/sgtin"
+      ],
+      "summary": "Закрепить коды маркировки Честного знака за сборочными заданиями",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/marketplace/v3/dbw/orders/status/deliver",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/dbw/orders/status/deliver"
+      ],
+      "summary": "Перевести сборочные задания в доставку",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "GET",
+      "path": "/api/v3/dbw/orders",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders"
+      ],
+      "summary": "Получить информацию о завершенных сборочных заданиях",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/v3/dbw/orders/courier",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/courier"
+      ],
+      "summary": "Информация о курьере",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/v3/dbw/orders/delivery-date",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/delivery-date"
+      ],
+      "summary": "Дата и время доставки",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "GET",
+      "path": "/api/v3/dbw/orders/new",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/new"
+      ],
+      "summary": "Получить список новых сборочных заданий",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/v3/dbw/orders/status",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/status"
+      ],
+      "summary": "Получить статусы сборочных заданий",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "POST",
+      "path": "/api/v3/dbw/orders/stickers",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/stickers"
+      ],
+      "summary": "Получить стикеры сборочных заданий",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "PATCH",
+      "path": "/api/v3/dbw/orders/{orderId}/assemble",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/assemble"
+      ],
+      "summary": "Перевести в доставку",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "PATCH",
+      "path": "/api/v3/dbw/orders/{orderId}/cancel",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/cancel"
+      ],
+      "summary": "Отменить сборочное задание",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "PATCH",
+      "path": "/api/v3/dbw/orders/{orderId}/confirm",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/confirm"
+      ],
+      "summary": "Перевести на сборку",
+      "tags": [
+        "Сборочные задания DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "DELETE",
+      "path": "/api/v3/dbw/orders/{orderId}/meta",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/meta"
+      ],
+      "summary": "Удалить метаданные сборочного задания",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "GET",
+      "path": "/api/v3/dbw/orders/{orderId}/meta",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/meta"
+      ],
+      "summary": "Получить метаданные сборочного задания",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "PUT",
+      "path": "/api/v3/dbw/orders/{orderId}/meta/gtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/meta/gtin"
+      ],
+      "summary": "Закрепить за сборочным заданием GTIN",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "PUT",
+      "path": "/api/v3/dbw/orders/{orderId}/meta/imei",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/meta/imei"
+      ],
+      "summary": "Закрепить за сборочным заданием IMEI",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "PUT",
+      "path": "/api/v3/dbw/orders/{orderId}/meta/sgtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/meta/sgtin"
+      ],
+      "summary": "Закрепить за сборочным заданием код маркировки товара",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-dbw",
+      "method": "PUT",
+      "path": "/api/v3/dbw/orders/{orderId}/meta/uin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/orders/{orderId}/meta/uin"
+      ],
+      "summary": "Закрепить за сборочным заданием УИН (уникальный идентификационный номер)",
+      "tags": [
+        "Метаданные DBW"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-dbw",
+      "source_file": "04-orders-dbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/marketplace/v3/fbs/orders/archive",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/fbs/orders/archive"
+      ],
+      "summary": "Получить список архивных сборочных заданий",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/marketplace/v3/orders/meta",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/orders/meta"
+      ],
+      "summary": "Получить метаданные сборочных заданий",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PUT",
+      "path": "/api/marketplace/v3/orders/{orderId}/meta/customs-declaration",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/orders/{orderId}/meta/customs-declaration"
+      ],
+      "summary": "Закрепить за сборочным заданием номер ГТД",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/marketplace/v3/supplies/{supplyId}/order-ids",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/supplies/{supplyId}/order-ids"
+      ],
+      "summary": "Получить ID сборочных заданий поставки",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PATCH",
+      "path": "/api/marketplace/v3/supplies/{supplyId}/orders",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/marketplace/v3/supplies/{supplyId}/orders"
+      ],
+      "summary": "Добавить сборочные задания к поставке",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/orders",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders"
+      ],
+      "summary": "Получить информацию о сборочных заданиях",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/orders/client",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/client"
+      ],
+      "summary": "Заказы с информацией по клиенту",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/orders/new",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/new"
+      ],
+      "summary": "Получить список новых сборочных заданий",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/orders/status",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/status"
+      ],
+      "summary": "Получить статусы сборочных заданий",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/orders/status/history",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/status/history"
+      ],
+      "summary": "История статусов для сборочных заданий трансграничных поставок",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/orders/stickers",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/stickers"
+      ],
+      "summary": "Получить стикеры сборочных заданий",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/orders/stickers/cross-border",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/stickers/cross-border"
+      ],
+      "summary": "Получить стикеры сборочных заданий трансграничных поставок",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PATCH",
+      "path": "/api/v3/orders/{orderId}/cancel",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/{orderId}/cancel"
+      ],
+      "summary": "Отменить сборочное задание",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "DELETE",
+      "path": "/api/v3/orders/{orderId}/meta",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/{orderId}/meta"
+      ],
+      "summary": "Удалить метаданные сборочного задания",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PUT",
+      "path": "/api/v3/orders/{orderId}/meta/expiration",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/{orderId}/meta/expiration"
+      ],
+      "summary": "Закрепить за сборочным заданием срок годности товара",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PUT",
+      "path": "/api/v3/orders/{orderId}/meta/gtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/{orderId}/meta/gtin"
+      ],
+      "summary": "Закрепить за сборочным заданием GTIN",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PUT",
+      "path": "/api/v3/orders/{orderId}/meta/imei",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/{orderId}/meta/imei"
+      ],
+      "summary": "Закрепить за сборочным заданием IMEI",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PUT",
+      "path": "/api/v3/orders/{orderId}/meta/sgtin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/{orderId}/meta/sgtin"
+      ],
+      "summary": "Закрепить за сборочным заданием код маркировки Честного знака",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PUT",
+      "path": "/api/v3/orders/{orderId}/meta/uin",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/orders/{orderId}/meta/uin"
+      ],
+      "summary": "Закрепить за сборочным заданием УИН",
+      "tags": [
+        "Метаданные FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/passes",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/passes"
+      ],
+      "summary": "Получить список пропусков",
+      "tags": [
+        "Пропуска FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/passes",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/passes"
+      ],
+      "summary": "Создать пропуск",
+      "tags": [
+        "Пропуска FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/passes/offices",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/passes/offices"
+      ],
+      "summary": "Получить список складов, для которых требуется пропуск",
+      "tags": [
+        "Пропуска FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "DELETE",
+      "path": "/api/v3/passes/{passId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/passes/{passId}"
+      ],
+      "summary": "Удалить пропуск",
+      "tags": [
+        "Пропуска FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PUT",
+      "path": "/api/v3/passes/{passId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/passes/{passId}"
+      ],
+      "summary": "Обновить пропуск",
+      "tags": [
+        "Пропуска FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/supplies",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies"
+      ],
+      "summary": "Получить список поставок",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/supplies",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies"
+      ],
+      "summary": "Создать новую поставку",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/supplies/orders/reshipment",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/orders/reshipment"
+      ],
+      "summary": "Получить все сборочные задания для повторной отгрузки",
+      "tags": [
+        "Сборочные задания FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "DELETE",
+      "path": "/api/v3/supplies/{supplyId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}"
+      ],
+      "summary": "Удалить поставку",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/supplies/{supplyId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}"
+      ],
+      "summary": "Получить информацию о поставке",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/supplies/{supplyId}/barcode",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}/barcode"
+      ],
+      "summary": "Получить QR-код поставки",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "PATCH",
+      "path": "/api/v3/supplies/{supplyId}/deliver",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}/deliver"
+      ],
+      "summary": "Передать поставку в доставку",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "DELETE",
+      "path": "/api/v3/supplies/{supplyId}/trbx",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}/trbx"
+      ],
+      "summary": "Удалить грузоместа из поставки",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "GET",
+      "path": "/api/v3/supplies/{supplyId}/trbx",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}/trbx"
+      ],
+      "summary": "Получить список грузомест поставки",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/supplies/{supplyId}/trbx",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}/trbx"
+      ],
+      "summary": "Добавить грузоместа к поставке",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbs",
+      "method": "POST",
+      "path": "/api/v3/supplies/{supplyId}/trbx/stickers",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/supplies/{supplyId}/trbx/stickers"
+      ],
+      "summary": "Получить стикеры грузомест поставки",
+      "tags": [
+        "Поставки FBS"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbs",
+      "source_file": "03-orders-fbs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbw",
+      "method": "POST",
+      "path": "/api/v1/acceptance/options",
+      "base_urls": [
+        "https://supplies-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://supplies-api.wildberries.ru/api/v1/acceptance/options"
+      ],
+      "summary": "Опции приёмки",
+      "tags": [
+        "Информация для формирования поставок"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbw",
+      "source_file": "07-orders-fbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbw",
+      "method": "POST",
+      "path": "/api/v1/supplies",
+      "base_urls": [
+        "https://supplies-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://supplies-api.wildberries.ru/api/v1/supplies"
+      ],
+      "summary": "Список поставок",
+      "tags": [
+        "Информация о поставках"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbw",
+      "source_file": "07-orders-fbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbw",
+      "method": "GET",
+      "path": "/api/v1/supplies/{ID}",
+      "base_urls": [
+        "https://supplies-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://supplies-api.wildberries.ru/api/v1/supplies/{ID}"
+      ],
+      "summary": "Детали поставки",
+      "tags": [
+        "Информация о поставках"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbw",
+      "source_file": "07-orders-fbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbw",
+      "method": "GET",
+      "path": "/api/v1/supplies/{ID}/goods",
+      "base_urls": [
+        "https://supplies-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://supplies-api.wildberries.ru/api/v1/supplies/{ID}/goods"
+      ],
+      "summary": "Товары поставки",
+      "tags": [
+        "Информация о поставках"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbw",
+      "source_file": "07-orders-fbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbw",
+      "method": "GET",
+      "path": "/api/v1/supplies/{ID}/package",
+      "base_urls": [
+        "https://supplies-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://supplies-api.wildberries.ru/api/v1/supplies/{ID}/package"
+      ],
+      "summary": "Упаковка поставки",
+      "tags": [
+        "Информация о поставках"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbw",
+      "source_file": "07-orders-fbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbw",
+      "method": "GET",
+      "path": "/api/v1/transit-tariffs",
+      "base_urls": [
+        "https://supplies-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://supplies-api.wildberries.ru/api/v1/transit-tariffs"
+      ],
+      "summary": "Транзитные направления",
+      "tags": [
+        "Информация для формирования поставок"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbw",
+      "source_file": "07-orders-fbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "orders-fbw",
+      "method": "GET",
+      "path": "/api/v1/warehouses",
+      "base_urls": [
+        "https://supplies-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://supplies-api.wildberries.ru/api/v1/warehouses"
+      ],
+      "summary": "Список складов",
+      "tags": [
+        "Информация для формирования поставок"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/orders-fbw",
+      "source_file": "07-orders-fbw.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/content/v1/brands",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/api/content/v1/brands"
+      ],
+      "summary": "Бренды",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v2/buffer/goods/task",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/buffer/goods/task"
+      ],
+      "summary": "Детализация необработанной загрузки",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v2/buffer/tasks",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/buffer/tasks"
+      ],
+      "summary": "Состояние необработанной загрузки",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v2/history/goods/task",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/history/goods/task"
+      ],
+      "summary": "Детализация обработанной загрузки",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v2/history/tasks",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/history/tasks"
+      ],
+      "summary": "Состояние обработанной загрузки",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v2/list/goods/filter",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/list/goods/filter"
+      ],
+      "summary": "Получить товары с ценами",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/api/v2/list/goods/filter",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/list/goods/filter"
+      ],
+      "summary": "Получить товары с ценами по артикулам",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v2/list/goods/size/nm",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/list/goods/size/nm"
+      ],
+      "summary": "Получить размеры товара с ценами",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v2/quarantine/goods",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/quarantine/goods"
+      ],
+      "summary": "Получить товары в карантине",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/api/v2/upload/task",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/upload/task"
+      ],
+      "summary": "Установить цены и скидки",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/api/v2/upload/task/club-discount",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/upload/task/club-discount"
+      ],
+      "summary": "Установить скидки WB Клуба",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/api/v2/upload/task/size",
+      "base_urls": [
+        "https://discounts-prices-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://discounts-prices-api.wildberries.ru/api/v2/upload/task/size"
+      ],
+      "summary": "Установить цены для размеров",
+      "tags": [
+        "Цены и скидки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v3/dbw/warehouses/{warehouseId}/contacts",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/warehouses/{warehouseId}/contacts"
+      ],
+      "summary": "Список контактов",
+      "tags": [
+        "Склады продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "PUT",
+      "path": "/api/v3/dbw/warehouses/{warehouseId}/contacts",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/dbw/warehouses/{warehouseId}/contacts"
+      ],
+      "summary": "Обновить список контактов",
+      "tags": [
+        "Склады продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v3/offices",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/offices"
+      ],
+      "summary": "Получить список складов WB",
+      "tags": [
+        "Склады продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "DELETE",
+      "path": "/api/v3/stocks/{warehouseId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/stocks/{warehouseId}"
+      ],
+      "summary": "Удалить остатки товаров",
+      "tags": [
+        "Остатки на складах продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/api/v3/stocks/{warehouseId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/stocks/{warehouseId}"
+      ],
+      "summary": "Получить остатки товаров",
+      "tags": [
+        "Остатки на складах продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "PUT",
+      "path": "/api/v3/stocks/{warehouseId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/stocks/{warehouseId}"
+      ],
+      "summary": "Обновить остатки товаров",
+      "tags": [
+        "Остатки на складах продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/api/v3/warehouses",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/warehouses"
+      ],
+      "summary": "Получить список складов продавца",
+      "tags": [
+        "Склады продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/api/v3/warehouses",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/warehouses"
+      ],
+      "summary": "Создать склад продавца",
+      "tags": [
+        "Склады продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "DELETE",
+      "path": "/api/v3/warehouses/{warehouseId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/warehouses/{warehouseId}"
+      ],
+      "summary": "Удалить склад продавца",
+      "tags": [
+        "Склады продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "PUT",
+      "path": "/api/v3/warehouses/{warehouseId}",
+      "base_urls": [
+        "https://marketplace-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://marketplace-api.wildberries.ru/api/v3/warehouses/{warehouseId}"
+      ],
+      "summary": "Обновить склад продавца",
+      "tags": [
+        "Склады продавца"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/barcodes",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/barcodes"
+      ],
+      "summary": "Генерация баркодов",
+      "tags": [
+        "Создание карточек товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/cards/delete/trash",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/delete/trash"
+      ],
+      "summary": "Перенос карточек товаров в корзину",
+      "tags": [
+        "Карточки товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/cards/error/list",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/error/list"
+      ],
+      "summary": "Список несозданных карточек товаров с ошибками",
+      "tags": [
+        "Карточки товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/cards/limits",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/limits"
+      ],
+      "summary": "Лимиты карточек товаров",
+      "tags": [
+        "Создание карточек товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/cards/moveNm",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/moveNm"
+      ],
+      "summary": "Объединение и разъединение карточек товаров",
+      "tags": [
+        "Карточки товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/cards/recover",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/recover"
+      ],
+      "summary": "Восстановление карточек товаров из корзины",
+      "tags": [
+        "Карточки товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/cards/update",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/update"
+      ],
+      "summary": "Редактирование карточек товаров",
+      "tags": [
+        "Карточки товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/cards/upload",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/upload"
+      ],
+      "summary": "Создание карточек товаров",
+      "tags": [
+        "Создание карточек товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/cards/upload/add",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/cards/upload/add"
+      ],
+      "summary": "Создание карточек товаров с присоединением",
+      "tags": [
+        "Создание карточек товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/directory/colors",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/directory/colors"
+      ],
+      "summary": "Цвет",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/directory/countries",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/directory/countries"
+      ],
+      "summary": "Страна производства",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/directory/kinds",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/directory/kinds"
+      ],
+      "summary": "Пол",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/directory/seasons",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/directory/seasons"
+      ],
+      "summary": "Сезон",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/directory/tnved",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/directory/tnved"
+      ],
+      "summary": "ТНВЭД-код",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/directory/vat",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/directory/vat"
+      ],
+      "summary": "Ставка НДС",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/get/cards/list",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/get/cards/list"
+      ],
+      "summary": "Список карточек товаров",
+      "tags": [
+        "Карточки товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/get/cards/trash",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/get/cards/trash"
+      ],
+      "summary": "Список карточек товаров в корзине",
+      "tags": [
+        "Карточки товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/object/all",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/object/all"
+      ],
+      "summary": "Список предметов",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/object/charcs/{subjectId}",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/object/charcs/{subjectId}"
+      ],
+      "summary": "Характеристики предмета",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/object/parent/all",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/object/parent/all"
+      ],
+      "summary": "Родительские категории товаров",
+      "tags": [
+        "Категории, предметы и характеристики"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/tag",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/tag"
+      ],
+      "summary": "Создание ярлыка",
+      "tags": [
+        "Ярлыки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v2/tag/nomenclature/link",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/tag/nomenclature/link"
+      ],
+      "summary": "Управление ярлыками в карточке товара",
+      "tags": [
+        "Ярлыки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "DELETE",
+      "path": "/content/v2/tag/{id}",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/tag/{id}"
+      ],
+      "summary": "Удаление ярлыка",
+      "tags": [
+        "Ярлыки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "PATCH",
+      "path": "/content/v2/tag/{id}",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/tag/{id}"
+      ],
+      "summary": "Изменение ярлыка",
+      "tags": [
+        "Ярлыки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "GET",
+      "path": "/content/v2/tags",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v2/tags"
+      ],
+      "summary": "Список ярлыков",
+      "tags": [
+        "Ярлыки"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v3/media/file",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v3/media/file"
+      ],
+      "summary": "Загрузить медиафайл",
+      "tags": [
+        "Медиафайлы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "products",
+      "method": "POST",
+      "path": "/content/v3/media/save",
+      "base_urls": [
+        "https://content-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://content-api.wildberries.ru/content/v3/media/save"
+      ],
+      "summary": "Загрузить медиафайлы по ссылкам",
+      "tags": [
+        "Медиафайлы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/work-with-products",
+      "source_file": "02-products.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "PATCH",
+      "path": "/adv/v0/auction/nms",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/auction/nms"
+      ],
+      "summary": "Изменение списка карточек товаров в кампаниях",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "PUT",
+      "path": "/adv/v0/auction/placements",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/auction/placements"
+      ],
+      "summary": "Изменение мест размещения в кампаниях с ручной ставкой",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v0/delete",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/delete"
+      ],
+      "summary": "Удаление кампании",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "DELETE",
+      "path": "/adv/v0/normquery/bids",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/normquery/bids"
+      ],
+      "summary": "Удалить ставки поисковых кластеров",
+      "tags": [
+        "Поисковые кластеры"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v0/normquery/bids",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/normquery/bids"
+      ],
+      "summary": "Установить ставки для поисковых кластеров",
+      "tags": [
+        "Поисковые кластеры"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v0/normquery/get-bids",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/normquery/get-bids"
+      ],
+      "summary": "Список ставок поисковых кластеров",
+      "tags": [
+        "Поисковые кластеры"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v0/normquery/get-minus",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/normquery/get-minus"
+      ],
+      "summary": "Список минус-фраз кампаний",
+      "tags": [
+        "Поисковые кластеры"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v0/normquery/list",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/normquery/list"
+      ],
+      "summary": "Списки активных и неактивных поисковых кластеров",
+      "tags": [
+        "Поисковые кластеры"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v0/normquery/set-minus",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/normquery/set-minus"
+      ],
+      "summary": "Установка и удаление минус-фраз",
+      "tags": [
+        "Поисковые кластеры"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v0/normquery/stats",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/normquery/stats"
+      ],
+      "summary": "Статистика поисковых кластеров",
+      "tags": [
+        "Статистика"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v0/pause",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/pause"
+      ],
+      "summary": "Пауза кампании",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v0/rename",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/rename"
+      ],
+      "summary": "Переименование кампании",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v0/start",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/start"
+      ],
+      "summary": "Запуск кампании",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v0/stop",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v0/stop"
+      ],
+      "summary": "Завершение кампании",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/advert",
+      "base_urls": [
+        "https://advert-media-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-media-api.wildberries.ru/adv/v1/advert"
+      ],
+      "summary": "Информация о медиакампании",
+      "tags": [
+        "Медиа"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/adverts",
+      "base_urls": [
+        "https://advert-media-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-media-api.wildberries.ru/adv/v1/adverts"
+      ],
+      "summary": "Список медиакампаний",
+      "tags": [
+        "Медиа"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/balance",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/balance"
+      ],
+      "summary": "Баланс",
+      "tags": [
+        "Финансы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/budget",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/budget"
+      ],
+      "summary": "Бюджет кампании",
+      "tags": [
+        "Финансы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v1/budget/deposit",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/budget/deposit"
+      ],
+      "summary": "Пополнение бюджета кампании",
+      "tags": [
+        "Финансы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/count",
+      "base_urls": [
+        "https://advert-media-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-media-api.wildberries.ru/adv/v1/count"
+      ],
+      "summary": "Количество медиакампаний",
+      "tags": [
+        "Медиа"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v1/normquery/stats",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/normquery/stats"
+      ],
+      "summary": "Статистика по поисковым кластерам с детализацией по дням",
+      "tags": [
+        "Статистика"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/payments",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/payments"
+      ],
+      "summary": "Получение истории пополнений счёта",
+      "tags": [
+        "Финансы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/promotion/count",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/promotion/count"
+      ],
+      "summary": "Списки кампаний",
+      "tags": [
+        "Кампании"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v1/stats",
+      "base_urls": [
+        "https://advert-media-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-media-api.wildberries.ru/adv/v1/stats"
+      ],
+      "summary": "Статистика медиакампаний",
+      "tags": [
+        "Статистика"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/supplier/subjects",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/supplier/subjects"
+      ],
+      "summary": "Предметы для кампаний",
+      "tags": [
+        "Создание кампаний"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v1/upd",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v1/upd"
+      ],
+      "summary": "Получение истории затрат",
+      "tags": [
+        "Финансы"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v2/seacat/save-ad",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v2/seacat/save-ad"
+      ],
+      "summary": "Создать кампанию",
+      "tags": [
+        "Создание кампаний"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/adv/v2/supplier/nms",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v2/supplier/nms"
+      ],
+      "summary": "Карточки товаров для кампаний",
+      "tags": [
+        "Создание кампаний"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/adv/v3/fullstats",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/adv/v3/fullstats"
+      ],
+      "summary": "Статистика кампаний",
+      "tags": [
+        "Статистика"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/api/advert/v0/bids/recommendations",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/api/advert/v0/bids/recommendations"
+      ],
+      "summary": "Рекомендуемые ставки для карточек товаров и поисковых кластеров",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "PATCH",
+      "path": "/api/advert/v1/bids",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/api/advert/v1/bids"
+      ],
+      "summary": "Изменение ставок в кампаниях",
+      "tags": [
+        "Управление кампаниями"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/api/advert/v1/bids/min",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/api/advert/v1/bids/min"
+      ],
+      "summary": "Минимальные ставки для карточек товаров",
+      "tags": [
+        "Создание кампаний"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/api/advert/v2/adverts",
+      "base_urls": [
+        "https://advert-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://advert-api.wildberries.ru/api/advert/v2/adverts"
+      ],
+      "summary": "Информация о кампаниях",
+      "tags": [
+        "Кампании"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/api/v1/calendar/promotions",
+      "base_urls": [
+        "https://dp-calendar-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://dp-calendar-api.wildberries.ru/api/v1/calendar/promotions"
+      ],
+      "summary": "Список акций",
+      "tags": [
+        "Календарь акций"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/api/v1/calendar/promotions/details",
+      "base_urls": [
+        "https://dp-calendar-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://dp-calendar-api.wildberries.ru/api/v1/calendar/promotions/details"
+      ],
+      "summary": "Детальная информация об акциях",
+      "tags": [
+        "Календарь акций"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "GET",
+      "path": "/api/v1/calendar/promotions/nomenclatures",
+      "base_urls": [
+        "https://dp-calendar-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://dp-calendar-api.wildberries.ru/api/v1/calendar/promotions/nomenclatures"
+      ],
+      "summary": "Список товаров для участия в акции",
+      "tags": [
+        "Календарь акций"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "promotion",
+      "method": "POST",
+      "path": "/api/v1/calendar/promotions/upload",
+      "base_urls": [
+        "https://dp-calendar-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://dp-calendar-api.wildberries.ru/api/v1/calendar/promotions/upload"
+      ],
+      "summary": "Добавить товар в акцию",
+      "tags": [
+        "Календарь акций"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/promotion",
+      "source_file": "08-promotion.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/analytics/v1/deductions",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/analytics/v1/deductions"
+      ],
+      "summary": "Подмены и неверные вложения",
+      "tags": [
+        "Отчёты об удержаниях"
+      ],
+      "operation_id": "getDeductions",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/analytics/v1/measurement-penalties",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/analytics/v1/measurement-penalties"
+      ],
+      "summary": "Удержания за занижение габаритов упаковки",
+      "tags": [
+        "Отчёты об удержаниях"
+      ],
+      "operation_id": "getMeasurementPenalties",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/analytics/v1/warehouse-measurements",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/analytics/v1/warehouse-measurements"
+      ],
+      "summary": "Замеры склада",
+      "tags": [
+        "Отчёты об удержаниях"
+      ],
+      "operation_id": "getWarehouseMeasurements",
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/acceptance_report",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/acceptance_report"
+      ],
+      "summary": "Создать отчёт",
+      "tags": [
+        "Операции при приёмке"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/acceptance_report/tasks/{task_id}/download",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/acceptance_report/tasks/{task_id}/download"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Операции при приёмке"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/acceptance_report/tasks/{task_id}/status",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/acceptance_report/tasks/{task_id}/status"
+      ],
+      "summary": "Проверить статус",
+      "tags": [
+        "Операции при приёмке"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/antifraud-details",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/antifraud-details"
+      ],
+      "summary": "Самовыкупы",
+      "tags": [
+        "Отчёты об удержаниях"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/banned-products/blocked",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/banned-products/blocked"
+      ],
+      "summary": "Заблокированные карточки",
+      "tags": [
+        "Скрытые товары"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/banned-products/shadowed",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/banned-products/shadowed"
+      ],
+      "summary": "Скрытые из каталога",
+      "tags": [
+        "Скрытые товары"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/brand-share",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/brand-share"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Доля бренда в продажах"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/brand-share/brands",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/brand-share/brands"
+      ],
+      "summary": "Бренды продавца",
+      "tags": [
+        "Доля бренда в продажах"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/brand-share/parent-subjects",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/brand-share/parent-subjects"
+      ],
+      "summary": "Родительские категории бренда",
+      "tags": [
+        "Доля бренда в продажах"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "POST",
+      "path": "/api/v1/analytics/excise-report",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/excise-report"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Отчёт о товарах c обязательной маркировкой"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/goods-labeling",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/goods-labeling"
+      ],
+      "summary": "Маркировка товара",
+      "tags": [
+        "Отчёты об удержаниях"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/goods-return",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/goods-return"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Отчёт о возвратах и перемещении товаров"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/analytics/region-sale",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/analytics/region-sale"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Продажи по регионам"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/paid_storage",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/paid_storage"
+      ],
+      "summary": "Создать отчёт",
+      "tags": [
+        "Платное хранение"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/paid_storage/tasks/{task_id}/download",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/paid_storage/tasks/{task_id}/download"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Платное хранение"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/paid_storage/tasks/{task_id}/status",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/paid_storage/tasks/{task_id}/status"
+      ],
+      "summary": "Проверить статус",
+      "tags": [
+        "Платное хранение"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/supplier/orders",
+      "base_urls": [
+        "https://statistics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://statistics-api.wildberries.ru/api/v1/supplier/orders"
+      ],
+      "summary": "Заказы",
+      "tags": [
+        "Основные отчёты"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/supplier/sales",
+      "base_urls": [
+        "https://statistics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://statistics-api.wildberries.ru/api/v1/supplier/sales"
+      ],
+      "summary": "Продажи",
+      "tags": [
+        "Основные отчёты"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/supplier/stocks",
+      "base_urls": [
+        "https://statistics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://statistics-api.wildberries.ru/api/v1/supplier/stocks"
+      ],
+      "summary": "Склады",
+      "tags": [
+        "Основные отчёты"
+      ],
+      "operation_id": null,
+      "deprecated": true,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/warehouse_remains",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/warehouse_remains"
+      ],
+      "summary": "Создать отчёт",
+      "tags": [
+        "Отчёт об остатках на складах"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/warehouse_remains/tasks/{task_id}/download",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/warehouse_remains/tasks/{task_id}/download"
+      ],
+      "summary": "Получить отчёт",
+      "tags": [
+        "Отчёт об остатках на складах"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "reports",
+      "method": "GET",
+      "path": "/api/v1/warehouse_remains/tasks/{task_id}/status",
+      "base_urls": [
+        "https://seller-analytics-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://seller-analytics-api.wildberries.ru/api/v1/warehouse_remains/tasks/{task_id}/status"
+      ],
+      "summary": "Проверить статус",
+      "tags": [
+        "Отчёт об остатках на складах"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/reports",
+      "source_file": "12-reports.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "tariffs",
+      "method": "GET",
+      "path": "/api/tariffs/v1/acceptance/coefficients",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/tariffs/v1/acceptance/coefficients"
+      ],
+      "summary": "Тарифы на поставку",
+      "tags": [
+        "Тарифы на поставку"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/wb-tariffs",
+      "source_file": "10-tariffs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "tariffs",
+      "method": "GET",
+      "path": "/api/v1/tariffs/box",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/v1/tariffs/box"
+      ],
+      "summary": "Тарифы для коробов",
+      "tags": [
+        "Тарифы на остаток"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/wb-tariffs",
+      "source_file": "10-tariffs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "tariffs",
+      "method": "GET",
+      "path": "/api/v1/tariffs/commission",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/v1/tariffs/commission"
+      ],
+      "summary": "Комиссия по категориям товаров",
+      "tags": [
+        "Комиссии"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/wb-tariffs",
+      "source_file": "10-tariffs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "tariffs",
+      "method": "GET",
+      "path": "/api/v1/tariffs/pallet",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/v1/tariffs/pallet"
+      ],
+      "summary": "Тарифы для монопаллет",
+      "tags": [
+        "Тарифы на остаток"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/wb-tariffs",
+      "source_file": "10-tariffs.yaml"
+    },
+    {
+      "marketplace": "wildberries",
+      "category": "tariffs",
+      "method": "GET",
+      "path": "/api/v1/tariffs/return",
+      "base_urls": [
+        "https://common-api.wildberries.ru"
+      ],
+      "urls": [
+        "https://common-api.wildberries.ru/api/v1/tariffs/return"
+      ],
+      "summary": "Тарифы на возврат",
+      "tags": [
+        "Стоимость возврата продавцу"
+      ],
+      "operation_id": null,
+      "deprecated": false,
+      "official_docs": "https://dev.wildberries.ru/docs/openapi/wb-tariffs",
+      "source_file": "10-tariffs.yaml"
+    }
+  ]
+}

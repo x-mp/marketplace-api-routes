@@ -1,0 +1,291 @@
+category,method,path,base_url,summary,tags,deprecated,official_docs
+analytics,POST,/api/analytics/v1/stocks-report/wb-warehouses,https://seller-analytics-api.wildberries.ru,Остатки на складах WB,История остатков,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/analytics/v3/sales-funnel/grouped/history,https://seller-analytics-api.wildberries.ru,Статистика групп карточек товаров по дням,Воронка продаж,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/analytics/v3/sales-funnel/products,https://seller-analytics-api.wildberries.ru,Статистика карточек товаров за период,Воронка продаж,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/analytics/v3/sales-funnel/products/history,https://seller-analytics-api.wildberries.ru,Статистика карточек товаров по дням,Воронка продаж,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,GET,/api/v2/nm-report/downloads,https://seller-analytics-api.wildberries.ru,Получить список отчётов,Аналитика продавца CSV,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/nm-report/downloads,https://seller-analytics-api.wildberries.ru,Создать отчёт,Аналитика продавца CSV,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,GET,/api/v2/nm-report/downloads/file/{downloadId},https://seller-analytics-api.wildberries.ru,Получить отчёт,Аналитика продавца CSV,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/nm-report/downloads/retry,https://seller-analytics-api.wildberries.ru,Сгенерировать отчёт повторно,Аналитика продавца CSV,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/search-report/product/orders,https://seller-analytics-api.wildberries.ru,Заказы и позиции по поисковым запросам товара,Поисковые запросы по вашим товарам,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/search-report/product/search-texts,https://seller-analytics-api.wildberries.ru,Поисковые запросы по товару,Поисковые запросы по вашим товарам,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/search-report/report,https://seller-analytics-api.wildberries.ru,Основная страница,Поисковые запросы по вашим товарам,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/search-report/table/details,https://seller-analytics-api.wildberries.ru,Пагинация по товарам в группе,Поисковые запросы по вашим товарам,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/search-report/table/groups,https://seller-analytics-api.wildberries.ru,Пагинация по группам,Поисковые запросы по вашим товарам,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/stocks-report/offices,https://seller-analytics-api.wildberries.ru,Данные по складам,История остатков,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/stocks-report/products/groups,https://seller-analytics-api.wildberries.ru,Данные по группам,История остатков,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/stocks-report/products/products,https://seller-analytics-api.wildberries.ru,Данные по товарам,История остатков,False,https://dev.wildberries.ru/docs/openapi/analytics
+analytics,POST,/api/v2/stocks-report/products/sizes,https://seller-analytics-api.wildberries.ru,Данные по размерам,История остатков,False,https://dev.wildberries.ru/docs/openapi/analytics
+communications,DELETE,/api/feedbacks/v1/pins,https://feedbacks-api.wildberries.ru,Открепить отзывы,Закреплённые отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/feedbacks/v1/pins,https://feedbacks-api.wildberries.ru,Список закреплённых и откреплённых отзывов,Закреплённые отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,POST,/api/feedbacks/v1/pins,https://feedbacks-api.wildberries.ru,Закрепить отзывы,Закреплённые отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/feedbacks/v1/pins/count,https://feedbacks-api.wildberries.ru,Количество закреплённых и откреплённых отзывов,Закреплённые отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/feedbacks/v1/pins/limits,https://feedbacks-api.wildberries.ru,Лимиты закреплённых отзывов,Закреплённые отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,PATCH,/api/v1/claim,https://returns-api.wildberries.ru,Ответ на заявку покупателя,Возвраты покупателями,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/claims,https://returns-api.wildberries.ru,Заявки покупателей на возврат,Возвраты покупателями,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/feedback,https://feedbacks-api.wildberries.ru,Получить отзыв по ID,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/feedbacks,https://feedbacks-api.wildberries.ru,Список отзывов,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,PATCH,/api/v1/feedbacks/answer,https://feedbacks-api.wildberries.ru,Отредактировать ответ на отзыв,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,POST,/api/v1/feedbacks/answer,https://feedbacks-api.wildberries.ru,Ответить на отзыв,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/feedbacks/archive,https://feedbacks-api.wildberries.ru,Список архивных отзывов,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/feedbacks/count,https://feedbacks-api.wildberries.ru,Количество отзывов,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/feedbacks/count-unanswered,https://feedbacks-api.wildberries.ru,Необработанные отзывы,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,POST,/api/v1/feedbacks/order/return,https://feedbacks-api.wildberries.ru,Возврат товара по ID отзыва,Отзывы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/new-feedbacks-questions,https://feedbacks-api.wildberries.ru,Непросмотренные отзывы и вопросы,Вопросы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/question,https://feedbacks-api.wildberries.ru,Получить вопрос по ID,Вопросы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/questions,https://feedbacks-api.wildberries.ru,Список вопросов,Вопросы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,PATCH,/api/v1/questions,https://feedbacks-api.wildberries.ru,Работа с вопросами,Вопросы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/questions/count,https://feedbacks-api.wildberries.ru,Количество вопросов,Вопросы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/questions/count-unanswered,https://feedbacks-api.wildberries.ru,Неотвеченные вопросы,Вопросы,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/seller/chats,https://buyer-chat-api.wildberries.ru,Список чатов,Чат с покупателями,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/seller/download/{id},https://buyer-chat-api.wildberries.ru,Получить файл из сообщения,Чат с покупателями,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,GET,/api/v1/seller/events,https://buyer-chat-api.wildberries.ru,События чатов,Чат с покупателями,False,https://dev.wildberries.ru/docs/openapi/user-communication
+communications,POST,/api/v1/seller/message,https://buyer-chat-api.wildberries.ru,Отправить сообщение,Чат с покупателями,False,https://dev.wildberries.ru/docs/openapi/user-communication
+finances,POST,/api/finance/v1/acquiring/detailed,https://finance-api.wildberries.ru,Детализации к отчётам об издержках на приём платежей за период,Финансовые отчёты,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,POST,/api/finance/v1/acquiring/detailed/{reportId},https://finance-api.wildberries.ru,Детализации к отчётам об издержках на приём платежей по ID отчётов,Финансовые отчёты,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,POST,/api/finance/v1/acquiring/list,https://finance-api.wildberries.ru,Список отчётов об издержках на приём платежей,Финансовые отчёты,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,POST,/api/finance/v1/sales-reports/detailed,https://finance-api.wildberries.ru,Детализации к отчётам реализации за период,Финансовые отчёты,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,POST,/api/finance/v1/sales-reports/detailed/{reportId},https://finance-api.wildberries.ru,Детализации к отчётам реализации по ID отчётов,Финансовые отчёты,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,POST,/api/finance/v1/sales-reports/list,https://finance-api.wildberries.ru,Список отчётов реализации,Финансовые отчёты,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,GET,/api/v1/account/balance,https://finance-api.wildberries.ru,Получить баланс продавца,Баланс,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,GET,/api/v1/documents/categories,https://documents-api.wildberries.ru,Категории документов,Документы,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,GET,/api/v1/documents/download,https://documents-api.wildberries.ru,Получить документ,Документы,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,POST,/api/v1/documents/download/all,https://documents-api.wildberries.ru,Получить документы,Документы,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,GET,/api/v1/documents/list,https://documents-api.wildberries.ru,Список документов,Документы,False,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+finances,GET,/api/v5/supplier/reportDetailByPeriod,https://statistics-api.wildberries.ru,Отчёт о продажах по реализации,Финансовые отчёты,True,https://dev.wildberries.ru/docs/openapi/financial-reports-and-accounting
+general,GET,/api/common/v1/rating,https://feedbacks-api.wildberries.ru,Получить рейтинг продавца,Информация о продавце,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,GET,/api/common/v1/subscriptions,https://common-api.wildberries.ru,Получить информацию о подписке Джем,Информация о продавце,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,GET,/api/communications/v2/news,https://common-api.wildberries.ru,Получение новостей портала продавцов,API новостей,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,POST,/api/v1/invite,https://user-management-api.wildberries.ru,Создать приглашение для нового пользователя,Управление пользователями продавца,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,GET,/api/v1/seller-info,https://common-api.wildberries.ru,Получить информацию о продавце,Информация о продавце,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,DELETE,/api/v1/user,https://user-management-api.wildberries.ru,Удалить пользователя,Управление пользователями продавца,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,GET,/api/v1/users,https://user-management-api.wildberries.ru,Получить список активных или приглашённых пользователей продавца,Управление пользователями продавца,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,PUT,/api/v1/users/access,https://user-management-api.wildberries.ru,Изменить права доступа пользователей,Управление пользователями продавца,False,https://dev.wildberries.ru/docs/openapi/api-information
+general,GET,/ping,https://common-api.wildberries.ru,Проверка подключения,Проверка подключения к WB API,False,https://dev.wildberries.ru/docs/openapi/api-information
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/meta/delete,https://marketplace-api.wildberries.ru,Удалить метаданные сборочных заданий,Метаданные Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/meta/gtin,https://marketplace-api.wildberries.ru,Закрепить GTIN за сборочными заданиями,Метаданные Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/meta/imei,https://marketplace-api.wildberries.ru,Закрепить IMEI за сборочными заданиями,Метаданные Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/meta/info,https://marketplace-api.wildberries.ru,Получить метаданные сборочных заданий,Метаданные Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/meta/sgtin,https://marketplace-api.wildberries.ru,Закрепить коды маркировки Честного знака за сборочными заданиями,Метаданные Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/meta/uin,https://marketplace-api.wildberries.ru,Закрепить УИН за сборочными заданиями,Метаданные Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/status/cancel,https://marketplace-api.wildberries.ru,Отменить сборочные задания,Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/status/confirm,https://marketplace-api.wildberries.ru,Перевести сборочные задания на сборку,Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/status/info,https://marketplace-api.wildberries.ru,Получить статусы сборочных заданий,Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/status/prepare,https://marketplace-api.wildberries.ru,"Сообщить, что сборочные задания готовы к выдаче",Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/status/receive,https://marketplace-api.wildberries.ru,"Сообщить, что заказы приняты покупателями",Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/marketplace/v3/click-collect/orders/status/reject,https://marketplace-api.wildberries.ru,Сообщить об отказе от заказов,Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,GET,/api/v3/click-collect/orders,https://marketplace-api.wildberries.ru,Получить информацию о завершённых сборочных заданиях,Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/v3/click-collect/orders/client,https://marketplace-api.wildberries.ru,Информация о покупателе,Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/v3/click-collect/orders/client/identity,https://marketplace-api.wildberries.ru,"Проверить, что заказ принадлежит покупателю",Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,GET,/api/v3/click-collect/orders/new,https://marketplace-api.wildberries.ru,Получить список новых сборочных заданий,Сборочные задания Самовывоз,False,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,POST,/api/v3/click-collect/orders/status,https://marketplace-api.wildberries.ru,Получить статусы сборочных заданий,Сборочные задания Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PATCH,/api/v3/click-collect/orders/{orderId}/cancel,https://marketplace-api.wildberries.ru,Отменить сборочное задание,Сборочные задания Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PATCH,/api/v3/click-collect/orders/{orderId}/confirm,https://marketplace-api.wildberries.ru,Перевести на сборку,Сборочные задания Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,DELETE,/api/v3/click-collect/orders/{orderId}/meta,https://marketplace-api.wildberries.ru,Удалить метаданные сборочного задания,Метаданные Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,GET,/api/v3/click-collect/orders/{orderId}/meta,https://marketplace-api.wildberries.ru,Получить метаданные сборочного задания,Метаданные Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PUT,/api/v3/click-collect/orders/{orderId}/meta/gtin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием GTIN,Метаданные Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PUT,/api/v3/click-collect/orders/{orderId}/meta/imei,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием IMEI,Метаданные Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PUT,/api/v3/click-collect/orders/{orderId}/meta/sgtin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием код маркировки товара,Метаданные Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PUT,/api/v3/click-collect/orders/{orderId}/meta/uin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием УИН (уникальный идентификационный номер),Метаданные Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PATCH,/api/v3/click-collect/orders/{orderId}/prepare,https://marketplace-api.wildberries.ru,"Сообщить, что сборочное задание готово к выдаче",Сборочные задания Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PATCH,/api/v3/click-collect/orders/{orderId}/receive,https://marketplace-api.wildberries.ru,"Сообщить, что заказ принят покупателем",Сборочные задания Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+in-store-pickup,PATCH,/api/v3/click-collect/orders/{orderId}/reject,https://marketplace-api.wildberries.ru,"Сообщить, что покупатель отказался от заказа",Сборочные задания Самовывоз,True,https://dev.wildberries.ru/docs/openapi/in-store-pickup
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/b2b/info,https://marketplace-api.wildberries.ru,Информация о покупателе B2B,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/customs-declaration,https://marketplace-api.wildberries.ru,Закрепить за сборочными заданиями номер ГТД,Метаданные DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/delete,https://marketplace-api.wildberries.ru,Удалить метаданные сборочных заданий,Метаданные DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/details,https://marketplace-api.wildberries.ru,Получить метаданные сборочных заданий,Метаданные DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/gtin,https://marketplace-api.wildberries.ru,Закрепить GTIN за сборочными заданиями,Метаданные DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/imei,https://marketplace-api.wildberries.ru,Закрепить IMEI за сборочными заданиями,Метаданные DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/info,https://marketplace-api.wildberries.ru,Получить метаданные сборочных заданий,Метаданные DBS,True,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/sgtin,https://marketplace-api.wildberries.ru,Закрепить коды маркировки Честного знака за сборочными заданиями,Метаданные DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/meta/uin,https://marketplace-api.wildberries.ru,Закрепить УИН за сборочными заданиями,Метаданные DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/status/cancel,https://marketplace-api.wildberries.ru,Отменить сборочные задания,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/status/confirm,https://marketplace-api.wildberries.ru,Перевести сборочные задания на сборку,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/status/deliver,https://marketplace-api.wildberries.ru,Перевести сборочные задания в доставку,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/status/info,https://marketplace-api.wildberries.ru,Получить статусы сборочных заданий,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/status/receive,https://marketplace-api.wildberries.ru,Сообщить о получении заказов,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/status/reject,https://marketplace-api.wildberries.ru,Сообщить об отказе от заказов,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/marketplace/v3/dbs/orders/stickers,https://marketplace-api.wildberries.ru,Получить стикеры для сборочных заданий с доставкой в ПВЗ,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/v3/dbs/groups/info,https://marketplace-api.wildberries.ru,Получить информацию о платной доставке,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,GET,/api/v3/dbs/orders,https://marketplace-api.wildberries.ru,Получить информацию о завершенных сборочных заданиях,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/v3/dbs/orders/client,https://marketplace-api.wildberries.ru,Информация о покупателе,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,POST,/api/v3/dbs/orders/delivery-date,https://marketplace-api.wildberries.ru,Дата и время доставки,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbs,GET,/api/v3/dbs/orders/new,https://marketplace-api.wildberries.ru,Получить список новых сборочных заданий,Сборочные задания DBS,False,https://dev.wildberries.ru/docs/openapi/orders-dbs
+orders-dbw,POST,/api/marketplace/v3/dbw/orders/client,https://marketplace-api.wildberries.ru,Информация о покупателе,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/marketplace/v3/dbw/orders/meta/delete,https://marketplace-api.wildberries.ru,Удалить метаданные сборочных заданий,Метаданные DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/marketplace/v3/dbw/orders/meta/details,https://marketplace-api.wildberries.ru,Получить метаданные сборочных заданий,Метаданные DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/marketplace/v3/dbw/orders/meta/sgtin,https://marketplace-api.wildberries.ru,Закрепить коды маркировки Честного знака за сборочными заданиями,Метаданные DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/marketplace/v3/dbw/orders/status/deliver,https://marketplace-api.wildberries.ru,Перевести сборочные задания в доставку,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,GET,/api/v3/dbw/orders,https://marketplace-api.wildberries.ru,Получить информацию о завершенных сборочных заданиях,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/v3/dbw/orders/courier,https://marketplace-api.wildberries.ru,Информация о курьере,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/v3/dbw/orders/delivery-date,https://marketplace-api.wildberries.ru,Дата и время доставки,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,GET,/api/v3/dbw/orders/new,https://marketplace-api.wildberries.ru,Получить список новых сборочных заданий,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/v3/dbw/orders/status,https://marketplace-api.wildberries.ru,Получить статусы сборочных заданий,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,POST,/api/v3/dbw/orders/stickers,https://marketplace-api.wildberries.ru,Получить стикеры сборочных заданий,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,PATCH,/api/v3/dbw/orders/{orderId}/assemble,https://marketplace-api.wildberries.ru,Перевести в доставку,Сборочные задания DBW,True,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,PATCH,/api/v3/dbw/orders/{orderId}/cancel,https://marketplace-api.wildberries.ru,Отменить сборочное задание,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,PATCH,/api/v3/dbw/orders/{orderId}/confirm,https://marketplace-api.wildberries.ru,Перевести на сборку,Сборочные задания DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,DELETE,/api/v3/dbw/orders/{orderId}/meta,https://marketplace-api.wildberries.ru,Удалить метаданные сборочного задания,Метаданные DBW,True,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,GET,/api/v3/dbw/orders/{orderId}/meta,https://marketplace-api.wildberries.ru,Получить метаданные сборочного задания,Метаданные DBW,True,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,PUT,/api/v3/dbw/orders/{orderId}/meta/gtin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием GTIN,Метаданные DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,PUT,/api/v3/dbw/orders/{orderId}/meta/imei,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием IMEI,Метаданные DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,PUT,/api/v3/dbw/orders/{orderId}/meta/sgtin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием код маркировки товара,Метаданные DBW,True,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-dbw,PUT,/api/v3/dbw/orders/{orderId}/meta/uin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием УИН (уникальный идентификационный номер),Метаданные DBW,False,https://dev.wildberries.ru/docs/openapi/orders-dbw
+orders-fbs,GET,/api/marketplace/v3/fbs/orders/archive,https://marketplace-api.wildberries.ru,Получить список архивных сборочных заданий,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/marketplace/v3/orders/meta,https://marketplace-api.wildberries.ru,Получить метаданные сборочных заданий,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PUT,/api/marketplace/v3/orders/{orderId}/meta/customs-declaration,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием номер ГТД,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/marketplace/v3/supplies/{supplyId}/order-ids,https://marketplace-api.wildberries.ru,Получить ID сборочных заданий поставки,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PATCH,/api/marketplace/v3/supplies/{supplyId}/orders,https://marketplace-api.wildberries.ru,Добавить сборочные задания к поставке,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/orders,https://marketplace-api.wildberries.ru,Получить информацию о сборочных заданиях,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/orders/client,https://marketplace-api.wildberries.ru,Заказы с информацией по клиенту,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/orders/new,https://marketplace-api.wildberries.ru,Получить список новых сборочных заданий,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/orders/status,https://marketplace-api.wildberries.ru,Получить статусы сборочных заданий,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/orders/status/history,https://marketplace-api.wildberries.ru,История статусов для сборочных заданий трансграничных поставок,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/orders/stickers,https://marketplace-api.wildberries.ru,Получить стикеры сборочных заданий,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/orders/stickers/cross-border,https://marketplace-api.wildberries.ru,Получить стикеры сборочных заданий трансграничных поставок,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PATCH,/api/v3/orders/{orderId}/cancel,https://marketplace-api.wildberries.ru,Отменить сборочное задание,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,DELETE,/api/v3/orders/{orderId}/meta,https://marketplace-api.wildberries.ru,Удалить метаданные сборочного задания,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PUT,/api/v3/orders/{orderId}/meta/expiration,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием срок годности товара,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PUT,/api/v3/orders/{orderId}/meta/gtin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием GTIN,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PUT,/api/v3/orders/{orderId}/meta/imei,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием IMEI,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PUT,/api/v3/orders/{orderId}/meta/sgtin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием код маркировки Честного знака,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PUT,/api/v3/orders/{orderId}/meta/uin,https://marketplace-api.wildberries.ru,Закрепить за сборочным заданием УИН,Метаданные FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/passes,https://marketplace-api.wildberries.ru,Получить список пропусков,Пропуска FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/passes,https://marketplace-api.wildberries.ru,Создать пропуск,Пропуска FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/passes/offices,https://marketplace-api.wildberries.ru,"Получить список складов, для которых требуется пропуск",Пропуска FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,DELETE,/api/v3/passes/{passId},https://marketplace-api.wildberries.ru,Удалить пропуск,Пропуска FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PUT,/api/v3/passes/{passId},https://marketplace-api.wildberries.ru,Обновить пропуск,Пропуска FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/supplies,https://marketplace-api.wildberries.ru,Получить список поставок,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/supplies,https://marketplace-api.wildberries.ru,Создать новую поставку,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/supplies/orders/reshipment,https://marketplace-api.wildberries.ru,Получить все сборочные задания для повторной отгрузки,Сборочные задания FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,DELETE,/api/v3/supplies/{supplyId},https://marketplace-api.wildberries.ru,Удалить поставку,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/supplies/{supplyId},https://marketplace-api.wildberries.ru,Получить информацию о поставке,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/supplies/{supplyId}/barcode,https://marketplace-api.wildberries.ru,Получить QR-код поставки,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,PATCH,/api/v3/supplies/{supplyId}/deliver,https://marketplace-api.wildberries.ru,Передать поставку в доставку,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,DELETE,/api/v3/supplies/{supplyId}/trbx,https://marketplace-api.wildberries.ru,Удалить грузоместа из поставки,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,GET,/api/v3/supplies/{supplyId}/trbx,https://marketplace-api.wildberries.ru,Получить список грузомест поставки,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/supplies/{supplyId}/trbx,https://marketplace-api.wildberries.ru,Добавить грузоместа к поставке,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbs,POST,/api/v3/supplies/{supplyId}/trbx/stickers,https://marketplace-api.wildberries.ru,Получить стикеры грузомест поставки,Поставки FBS,False,https://dev.wildberries.ru/docs/openapi/orders-fbs
+orders-fbw,POST,/api/v1/acceptance/options,https://supplies-api.wildberries.ru,Опции приёмки,Информация для формирования поставок,False,https://dev.wildberries.ru/docs/openapi/orders-fbw
+orders-fbw,POST,/api/v1/supplies,https://supplies-api.wildberries.ru,Список поставок,Информация о поставках,False,https://dev.wildberries.ru/docs/openapi/orders-fbw
+orders-fbw,GET,/api/v1/supplies/{ID},https://supplies-api.wildberries.ru,Детали поставки,Информация о поставках,False,https://dev.wildberries.ru/docs/openapi/orders-fbw
+orders-fbw,GET,/api/v1/supplies/{ID}/goods,https://supplies-api.wildberries.ru,Товары поставки,Информация о поставках,False,https://dev.wildberries.ru/docs/openapi/orders-fbw
+orders-fbw,GET,/api/v1/supplies/{ID}/package,https://supplies-api.wildberries.ru,Упаковка поставки,Информация о поставках,False,https://dev.wildberries.ru/docs/openapi/orders-fbw
+orders-fbw,GET,/api/v1/transit-tariffs,https://supplies-api.wildberries.ru,Транзитные направления,Информация для формирования поставок,False,https://dev.wildberries.ru/docs/openapi/orders-fbw
+orders-fbw,GET,/api/v1/warehouses,https://supplies-api.wildberries.ru,Список складов,Информация для формирования поставок,False,https://dev.wildberries.ru/docs/openapi/orders-fbw
+products,GET,/api/content/v1/brands,https://content-api.wildberries.ru,Бренды,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v2/buffer/goods/task,https://discounts-prices-api.wildberries.ru,Детализация необработанной загрузки,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v2/buffer/tasks,https://discounts-prices-api.wildberries.ru,Состояние необработанной загрузки,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v2/history/goods/task,https://discounts-prices-api.wildberries.ru,Детализация обработанной загрузки,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v2/history/tasks,https://discounts-prices-api.wildberries.ru,Состояние обработанной загрузки,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v2/list/goods/filter,https://discounts-prices-api.wildberries.ru,Получить товары с ценами,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/api/v2/list/goods/filter,https://discounts-prices-api.wildberries.ru,Получить товары с ценами по артикулам,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v2/list/goods/size/nm,https://discounts-prices-api.wildberries.ru,Получить размеры товара с ценами,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v2/quarantine/goods,https://discounts-prices-api.wildberries.ru,Получить товары в карантине,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/api/v2/upload/task,https://discounts-prices-api.wildberries.ru,Установить цены и скидки,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/api/v2/upload/task/club-discount,https://discounts-prices-api.wildberries.ru,Установить скидки WB Клуба,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/api/v2/upload/task/size,https://discounts-prices-api.wildberries.ru,Установить цены для размеров,Цены и скидки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v3/dbw/warehouses/{warehouseId}/contacts,https://marketplace-api.wildberries.ru,Список контактов,Склады продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,PUT,/api/v3/dbw/warehouses/{warehouseId}/contacts,https://marketplace-api.wildberries.ru,Обновить список контактов,Склады продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v3/offices,https://marketplace-api.wildberries.ru,Получить список складов WB,Склады продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,DELETE,/api/v3/stocks/{warehouseId},https://marketplace-api.wildberries.ru,Удалить остатки товаров,Остатки на складах продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/api/v3/stocks/{warehouseId},https://marketplace-api.wildberries.ru,Получить остатки товаров,Остатки на складах продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,PUT,/api/v3/stocks/{warehouseId},https://marketplace-api.wildberries.ru,Обновить остатки товаров,Остатки на складах продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/api/v3/warehouses,https://marketplace-api.wildberries.ru,Получить список складов продавца,Склады продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/api/v3/warehouses,https://marketplace-api.wildberries.ru,Создать склад продавца,Склады продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,DELETE,/api/v3/warehouses/{warehouseId},https://marketplace-api.wildberries.ru,Удалить склад продавца,Склады продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,PUT,/api/v3/warehouses/{warehouseId},https://marketplace-api.wildberries.ru,Обновить склад продавца,Склады продавца,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/barcodes,https://content-api.wildberries.ru,Генерация баркодов,Создание карточек товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/cards/delete/trash,https://content-api.wildberries.ru,Перенос карточек товаров в корзину,Карточки товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/cards/error/list,https://content-api.wildberries.ru,Список несозданных карточек товаров с ошибками,Карточки товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/cards/limits,https://content-api.wildberries.ru,Лимиты карточек товаров,Создание карточек товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/cards/moveNm,https://content-api.wildberries.ru,Объединение и разъединение карточек товаров,Карточки товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/cards/recover,https://content-api.wildberries.ru,Восстановление карточек товаров из корзины,Карточки товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/cards/update,https://content-api.wildberries.ru,Редактирование карточек товаров,Карточки товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/cards/upload,https://content-api.wildberries.ru,Создание карточек товаров,Создание карточек товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/cards/upload/add,https://content-api.wildberries.ru,Создание карточек товаров с присоединением,Создание карточек товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/directory/colors,https://content-api.wildberries.ru,Цвет,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/directory/countries,https://content-api.wildberries.ru,Страна производства,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/directory/kinds,https://content-api.wildberries.ru,Пол,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/directory/seasons,https://content-api.wildberries.ru,Сезон,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/directory/tnved,https://content-api.wildberries.ru,ТНВЭД-код,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/directory/vat,https://content-api.wildberries.ru,Ставка НДС,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/get/cards/list,https://content-api.wildberries.ru,Список карточек товаров,Карточки товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/get/cards/trash,https://content-api.wildberries.ru,Список карточек товаров в корзине,Карточки товаров,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/object/all,https://content-api.wildberries.ru,Список предметов,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/object/charcs/{subjectId},https://content-api.wildberries.ru,Характеристики предмета,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/object/parent/all,https://content-api.wildberries.ru,Родительские категории товаров,"Категории, предметы и характеристики",False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/tag,https://content-api.wildberries.ru,Создание ярлыка,Ярлыки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v2/tag/nomenclature/link,https://content-api.wildberries.ru,Управление ярлыками в карточке товара,Ярлыки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,DELETE,/content/v2/tag/{id},https://content-api.wildberries.ru,Удаление ярлыка,Ярлыки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,PATCH,/content/v2/tag/{id},https://content-api.wildberries.ru,Изменение ярлыка,Ярлыки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,GET,/content/v2/tags,https://content-api.wildberries.ru,Список ярлыков,Ярлыки,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v3/media/file,https://content-api.wildberries.ru,Загрузить медиафайл,Медиафайлы,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+products,POST,/content/v3/media/save,https://content-api.wildberries.ru,Загрузить медиафайлы по ссылкам,Медиафайлы,False,https://dev.wildberries.ru/docs/openapi/work-with-products
+promotion,PATCH,/adv/v0/auction/nms,https://advert-api.wildberries.ru,Изменение списка карточек товаров в кампаниях,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,PUT,/adv/v0/auction/placements,https://advert-api.wildberries.ru,Изменение мест размещения в кампаниях с ручной ставкой,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v0/delete,https://advert-api.wildberries.ru,Удаление кампании,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,DELETE,/adv/v0/normquery/bids,https://advert-api.wildberries.ru,Удалить ставки поисковых кластеров,Поисковые кластеры,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v0/normquery/bids,https://advert-api.wildberries.ru,Установить ставки для поисковых кластеров,Поисковые кластеры,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v0/normquery/get-bids,https://advert-api.wildberries.ru,Список ставок поисковых кластеров,Поисковые кластеры,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v0/normquery/get-minus,https://advert-api.wildberries.ru,Список минус-фраз кампаний,Поисковые кластеры,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v0/normquery/list,https://advert-api.wildberries.ru,Списки активных и неактивных поисковых кластеров,Поисковые кластеры,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v0/normquery/set-minus,https://advert-api.wildberries.ru,Установка и удаление минус-фраз,Поисковые кластеры,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v0/normquery/stats,https://advert-api.wildberries.ru,Статистика поисковых кластеров,Статистика,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v0/pause,https://advert-api.wildberries.ru,Пауза кампании,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v0/rename,https://advert-api.wildberries.ru,Переименование кампании,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v0/start,https://advert-api.wildberries.ru,Запуск кампании,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v0/stop,https://advert-api.wildberries.ru,Завершение кампании,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/advert,https://advert-media-api.wildberries.ru,Информация о медиакампании,Медиа,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/adverts,https://advert-media-api.wildberries.ru,Список медиакампаний,Медиа,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/balance,https://advert-api.wildberries.ru,Баланс,Финансы,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/budget,https://advert-api.wildberries.ru,Бюджет кампании,Финансы,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v1/budget/deposit,https://advert-api.wildberries.ru,Пополнение бюджета кампании,Финансы,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/count,https://advert-media-api.wildberries.ru,Количество медиакампаний,Медиа,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v1/normquery/stats,https://advert-api.wildberries.ru,Статистика по поисковым кластерам с детализацией по дням,Статистика,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/payments,https://advert-api.wildberries.ru,Получение истории пополнений счёта,Финансы,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/promotion/count,https://advert-api.wildberries.ru,Списки кампаний,Кампании,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v1/stats,https://advert-media-api.wildberries.ru,Статистика медиакампаний,Статистика,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/supplier/subjects,https://advert-api.wildberries.ru,Предметы для кампаний,Создание кампаний,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v1/upd,https://advert-api.wildberries.ru,Получение истории затрат,Финансы,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v2/seacat/save-ad,https://advert-api.wildberries.ru,Создать кампанию,Создание кампаний,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/adv/v2/supplier/nms,https://advert-api.wildberries.ru,Карточки товаров для кампаний,Создание кампаний,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/adv/v3/fullstats,https://advert-api.wildberries.ru,Статистика кампаний,Статистика,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/api/advert/v0/bids/recommendations,https://advert-api.wildberries.ru,Рекомендуемые ставки для карточек товаров и поисковых кластеров,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,PATCH,/api/advert/v1/bids,https://advert-api.wildberries.ru,Изменение ставок в кампаниях,Управление кампаниями,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/api/advert/v1/bids/min,https://advert-api.wildberries.ru,Минимальные ставки для карточек товаров,Создание кампаний,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/api/advert/v2/adverts,https://advert-api.wildberries.ru,Информация о кампаниях,Кампании,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/api/v1/calendar/promotions,https://dp-calendar-api.wildberries.ru,Список акций,Календарь акций,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/api/v1/calendar/promotions/details,https://dp-calendar-api.wildberries.ru,Детальная информация об акциях,Календарь акций,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,GET,/api/v1/calendar/promotions/nomenclatures,https://dp-calendar-api.wildberries.ru,Список товаров для участия в акции,Календарь акций,False,https://dev.wildberries.ru/docs/openapi/promotion
+promotion,POST,/api/v1/calendar/promotions/upload,https://dp-calendar-api.wildberries.ru,Добавить товар в акцию,Календарь акций,False,https://dev.wildberries.ru/docs/openapi/promotion
+reports,GET,/api/analytics/v1/deductions,https://seller-analytics-api.wildberries.ru,Подмены и неверные вложения,Отчёты об удержаниях,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/analytics/v1/measurement-penalties,https://seller-analytics-api.wildberries.ru,Удержания за занижение габаритов упаковки,Отчёты об удержаниях,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/analytics/v1/warehouse-measurements,https://seller-analytics-api.wildberries.ru,Замеры склада,Отчёты об удержаниях,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/acceptance_report,https://seller-analytics-api.wildberries.ru,Создать отчёт,Операции при приёмке,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/acceptance_report/tasks/{task_id}/download,https://seller-analytics-api.wildberries.ru,Получить отчёт,Операции при приёмке,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/acceptance_report/tasks/{task_id}/status,https://seller-analytics-api.wildberries.ru,Проверить статус,Операции при приёмке,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/antifraud-details,https://seller-analytics-api.wildberries.ru,Самовыкупы,Отчёты об удержаниях,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/banned-products/blocked,https://seller-analytics-api.wildberries.ru,Заблокированные карточки,Скрытые товары,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/banned-products/shadowed,https://seller-analytics-api.wildberries.ru,Скрытые из каталога,Скрытые товары,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/brand-share,https://seller-analytics-api.wildberries.ru,Получить отчёт,Доля бренда в продажах,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/brand-share/brands,https://seller-analytics-api.wildberries.ru,Бренды продавца,Доля бренда в продажах,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/brand-share/parent-subjects,https://seller-analytics-api.wildberries.ru,Родительские категории бренда,Доля бренда в продажах,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,POST,/api/v1/analytics/excise-report,https://seller-analytics-api.wildberries.ru,Получить отчёт,Отчёт о товарах c обязательной маркировкой,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/goods-labeling,https://seller-analytics-api.wildberries.ru,Маркировка товара,Отчёты об удержаниях,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/goods-return,https://seller-analytics-api.wildberries.ru,Получить отчёт,Отчёт о возвратах и перемещении товаров,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/analytics/region-sale,https://seller-analytics-api.wildberries.ru,Получить отчёт,Продажи по регионам,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/paid_storage,https://seller-analytics-api.wildberries.ru,Создать отчёт,Платное хранение,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/paid_storage/tasks/{task_id}/download,https://seller-analytics-api.wildberries.ru,Получить отчёт,Платное хранение,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/paid_storage/tasks/{task_id}/status,https://seller-analytics-api.wildberries.ru,Проверить статус,Платное хранение,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/supplier/orders,https://statistics-api.wildberries.ru,Заказы,Основные отчёты,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/supplier/sales,https://statistics-api.wildberries.ru,Продажи,Основные отчёты,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/supplier/stocks,https://statistics-api.wildberries.ru,Склады,Основные отчёты,True,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/warehouse_remains,https://seller-analytics-api.wildberries.ru,Создать отчёт,Отчёт об остатках на складах,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/warehouse_remains/tasks/{task_id}/download,https://seller-analytics-api.wildberries.ru,Получить отчёт,Отчёт об остатках на складах,False,https://dev.wildberries.ru/docs/openapi/reports
+reports,GET,/api/v1/warehouse_remains/tasks/{task_id}/status,https://seller-analytics-api.wildberries.ru,Проверить статус,Отчёт об остатках на складах,False,https://dev.wildberries.ru/docs/openapi/reports
+tariffs,GET,/api/tariffs/v1/acceptance/coefficients,https://common-api.wildberries.ru,Тарифы на поставку,Тарифы на поставку,False,https://dev.wildberries.ru/docs/openapi/wb-tariffs
+tariffs,GET,/api/v1/tariffs/box,https://common-api.wildberries.ru,Тарифы для коробов,Тарифы на остаток,False,https://dev.wildberries.ru/docs/openapi/wb-tariffs
+tariffs,GET,/api/v1/tariffs/commission,https://common-api.wildberries.ru,Комиссия по категориям товаров,Комиссии,False,https://dev.wildberries.ru/docs/openapi/wb-tariffs
+tariffs,GET,/api/v1/tariffs/pallet,https://common-api.wildberries.ru,Тарифы для монопаллет,Тарифы на остаток,False,https://dev.wildberries.ru/docs/openapi/wb-tariffs
+tariffs,GET,/api/v1/tariffs/return,https://common-api.wildberries.ru,Тарифы на возврат,Стоимость возврата продавцу,False,https://dev.wildberries.ru/docs/openapi/wb-tariffs
