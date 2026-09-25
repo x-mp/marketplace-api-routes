@@ -85,7 +85,7 @@ def main():
     }
     (output / "routes.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     with (output / "routes.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["category", "method", "path", "base_url", "summary", "tags", "deprecated", "official_docs"])
+        writer = csv.DictWriter(f, fieldnames=["category", "method", "path", "base_url", "summary", "tags", "deprecated", "official_docs"], lineterminator="\n")
         writer.writeheader()
         for row in rows:
             for base_url in row["base_urls"] or [""]:

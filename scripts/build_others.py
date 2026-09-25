@@ -38,7 +38,7 @@ def write_catalog(marketplace, rows, sources, output_dir, source_date):
                "route_count": len(rows), "source_count": len(sources), "sources": sources, "routes": rows}
     (output_dir / "routes.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     with (output_dir / "routes.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["category", "method", "path", "base_url", "summary", "tags", "deprecated", "official_docs"])
+        writer = csv.DictWriter(f, fieldnames=["category", "method", "path", "base_url", "summary", "tags", "deprecated", "official_docs"], lineterminator="\n")
         writer.writeheader()
         for row in rows:
             for base_url in row["base_urls"] or [""]:
