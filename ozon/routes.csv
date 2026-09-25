@@ -1,0 +1,512 @@
+category,method,path,base_url,summary,tags,deprecated,official_docs
+performance,GET,/api/client/campaign,https://api-performance.ozon.ru:443,Список кампаний,Campaign; Кампании и рекламируемые объекты,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/campaign/all_sku_promo/activate,https://api-performance.ozon.ru:443,Включить продвижение в оплате за заказ — все товары,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/campaign/all_sku_promo/deactivate,https://api-performance.ozon.ru:443,Выключить продвижение в оплате за заказ — все товары,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/campaign/all_sku_promo/set_bid,https://api-performance.ozon.ru:443,Установить ставку для продвижения в Оплате за заказ — все товары,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/cpc/v2/product,https://api-performance.ozon.ru:443,Создать кампанию с оплатой за клики,Ad; Оплата за клик,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/search_promo/carrots/disable,https://api-performance.ozon.ru:443,Отключить продвижение товаров в акции «Морковск»,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/search_promo/carrots/enable,https://api-performance.ozon.ru:443,Включить продвижение товаров в акции «Морковск»,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/search_promo/v2/bids/delete,https://api-performance.ozon.ru:443,Удалить товар из продвижения в оплате за заказ,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/search_promo/v2/bids/set,https://api-performance.ozon.ru:443,Установить ставку на товар,Search-Promo; Оплата за заказ,True,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/search_promo/v2/products,https://api-performance.ozon.ru:443,Список товаров в продвижении в оплате за заказ,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,PATCH,/api/client/campaign/{campaignId},https://api-performance.ozon.ru:443,Параметры кампании,Ad; Edit; Оплата за клик,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/{campaignId}/activate,https://api-performance.ozon.ru:443,Активировать кампанию,Ad; Edit; Оплата за клик,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/{campaignId}/deactivate,https://api-performance.ozon.ru:443,Выключить кампанию,Ad; Edit; Оплата за клик,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/campaign/{campaignId}/objects,https://api-performance.ozon.ru:443,Список продвигаемых объектов в кампании,Campaign; Кампании и рекламируемые объекты,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/{campaignId}/products,https://api-performance.ozon.ru:443,Добавить товары в кампанию,Product; Товары в Оплате за клик,False,https://docs.ozon.ru/api/performance/
+performance,PUT,/api/client/campaign/{campaignId}/products,https://api-performance.ozon.ru:443,Обновить ставки товаров,Product; Товары в Оплате за клик,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/campaign/{campaignId}/products/bids/competitive,https://api-performance.ozon.ru:443,Конкурентные ставки для товара,Product; Товары в Оплате за клик,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/campaign/{campaignId}/products/delete,https://api-performance.ozon.ru:443,Удалить товары из кампании,Product; Товары в Оплате за клик,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/campaign/{campaignId}/v2/products,https://api-performance.ozon.ru:443,Список товаров кампании,Product; Товары в Оплате за клик,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/limits/list,https://api-performance.ozon.ru:443,Лимиты ставок для инструментов продвижения,Campaign; Кампании и рекламируемые объекты,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/min/sku,https://api-performance.ozon.ru:443,Минимальная ставка для товаров по SKU,Campaign; Кампании и рекламируемые объекты,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/organisation/vendor_tag,https://api-performance.ozon.ru:443,Метка организации для внешних рекламных кампаний,Vendor; Аналитика внешнего трафика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/products_with_bonuses,https://api-performance.ozon.ru:443,Список товаров с бонусами,Campaign; Кампании и рекламируемые объекты,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/search_promo/bids/recommendation,https://api-performance.ozon.ru:443,Рекомендованные ставки для товаров,Search-Promo; Оплата за заказ,True,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/search_promo/get_cpo_min_bids,https://api-performance.ozon.ru:443,Получить фиксированные ставки для товаров,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/search_promo/product/disable,https://api-performance.ozon.ru:443,Отключить продвижение товара в оплате за заказ,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/search_promo/product/enable,https://api-performance.ozon.ru:443,Включить продвижение товара в оплате за заказ,Search-Promo; Оплата за заказ,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/statistic/orders/generate,https://api-performance.ozon.ru:443,Получить отчёт по заказам в оплате за заказ — выбранные товары,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/statistic/products/generate,https://api-performance.ozon.ru:443,Получить отчёт по товарам в оплате за заказ — выбранные товары,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/statistics,https://api-performance.ozon.ru:443,Статистика по кампании,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/all_sku_promo/orders/generate,https://api-performance.ozon.ru:443,Получить отчёт по заказам в оплате за заказ — все товары,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/all_sku_promo/products/generate,https://api-performance.ozon.ru:443,Получить отчёт по товарам в оплате за заказ — все товары,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/statistics/attribution,https://api-performance.ozon.ru:443,Отчёт по заказам,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/campaign/media,https://api-performance.ozon.ru:443,Статистика по медийным кампаниям,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/campaign/product,https://api-performance.ozon.ru:443,Статистика по кампании Оплата за клик,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/daily,https://api-performance.ozon.ru:443,Дневная статистика по кампаниям,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/expense,https://api-performance.ozon.ru:443,Статистика по расходу кампаний,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/externallist,https://api-performance.ozon.ru:443,"Список отчётов, сгенерированных через API",Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/list,https://api-performance.ozon.ru:443,"Список отчётов, сгенерированных через интерфейс",Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/statistics/phrases,https://api-performance.ozon.ru:443,Отчёт по поисковым запросам,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/statistics/products/sku,https://api-performance.ozon.ru:443,Получить статистику по товарам в оплате за клик,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/report,https://api-performance.ozon.ru:443,Получить отчёты,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/statistics/video,https://api-performance.ozon.ru:443,Статистика по показам видеобаннера,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/statistics/{UUID},https://api-performance.ozon.ru:443,Cтатус отчёта,Statistics; Статистика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/api/client/vendors/statistics,https://api-performance.ozon.ru:443,Отчёт с аналитикой внешнего трафика,Vendor; Аналитика внешнего трафика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/vendors/statistics/list,https://api-performance.ozon.ru:443,Список запрошенных отчётов с аналитикой внешнего трафика,Vendor; Аналитика внешнего трафика,False,https://docs.ozon.ru/api/performance/
+performance,GET,/api/client/vendors/statistics/{UUID},https://api-performance.ozon.ru:443,Информация об отчёте по UUID,Vendor; Аналитика внешнего трафика,False,https://docs.ozon.ru/api/performance/
+performance,POST,/external/api/dynamic_budget,https://api-performance.ozon.ru:443,Рассчитать минимальный бюджет кампании,Ad; Оплата за клик,True,https://docs.ozon.ru/api/performance/
+seller,GET,/v1/actions,https://api-seller.ozon.ru,Список акций,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/auto-add/products/candidates,https://api-seller.ozon.ru,Получить список доступных товаров для автодобавления в акцию,PromosBeta; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/auto-add/products/delete,https://api-seller.ozon.ru,Удалить товары из автодобавления в акцию,PromosBeta; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/auto-add/products/list,https://api-seller.ozon.ru,Получить список товаров из автодобавления в акцию,PromosBeta; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/auto-add/products/update,https://api-seller.ozon.ru,Добавить или обновить товары в автодобавлении в акцию,PromosBeta; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/candidates,https://api-seller.ozon.ru,Список доступных для акции товаров,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/discounts-task/approve,https://api-seller.ozon.ru,Согласовать заявку на скидку,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/discounts-task/decline,https://api-seller.ozon.ru,Отклонить заявку на скидку,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/discounts-task/list,https://api-seller.ozon.ru,Список заявок на скидку,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/products,https://api-seller.ozon.ru,Список участвующих в акции товаров,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/products/activate,https://api-seller.ozon.ru,Добавить товар в акцию,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/actions/products/deactivate,https://api-seller.ozon.ru,Удалить товары из акции,Promos; Акции Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/analytics/data,https://api-seller.ozon.ru,Данные аналитики,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/analytics/manage/stocks,https://api-seller.ozon.ru,Управление остатками,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/analytics/product-queries,https://api-seller.ozon.ru,Получить информацию о запросах моих товаров,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/analytics/product-queries/details,https://api-seller.ozon.ru,Получить детализацию запросов по товару,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/analytics/stocks,https://api-seller.ozon.ru,Получить аналитику по остаткам,AnalyticsAPI; Аналитические отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/analytics/turnover/stocks,https://api-seller.ozon.ru,Оборачиваемость товара,AnalyticsAPI; Аналитические отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/assembly/carriage/posting/list,https://api-seller.ozon.ru,Получить список отправлений в отгрузке,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/assembly/carriage/product/list,https://api-seller.ozon.ru,Получить список товаров в отгрузке,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/assembly/fbs/posting/list,https://api-seller.ozon.ru,Получить список отправлений,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/assembly/fbs/product/list,https://api-seller.ozon.ru,Получить список товаров в отправлениях,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/barcode/add,https://api-seller.ozon.ru,Привязать штрихкод к товару,BarcodeAPI; Штрихкоды товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/barcode/generate,https://api-seller.ozon.ru,Создать штрихкод для товара,BarcodeAPI; Штрихкоды товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/brand/company-certification/list,https://api-seller.ozon.ru,Список сертифицируемых брендов,BrandAPI; Сертификаты брендов,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cancel-reason/list,https://api-seller.ozon.ru,Причины отмены отправлений,CancelReasonAPI; Причины отмены,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cancel-reason/list-by-order,https://api-seller.ozon.ru,Причины отмены заказа,CancelReasonAPI; Причины отмены,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cancel-reason/list-by-posting,https://api-seller.ozon.ru,Причины отмены отправления,CancelReasonAPI; Причины отмены,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes-label/create,https://api-seller.ozon.ru,Сгенерировать этикетки для грузомест,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,GET,/v1/cargoes-label/file/{file_guid},https://api-seller.ozon.ru,Получить PDF с этикетками грузовых мест,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes-label/get,https://api-seller.ozon.ru,Получить идентификатор этикетки для грузомест,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/create,https://api-seller.ozon.ru,Установка грузомест,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/delete,https://api-seller.ozon.ru,Удалить грузоместо в заявке на поставку,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/delete/status,https://api-seller.ozon.ru,Информация о статусе удаления грузоместа,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/get,https://api-seller.ozon.ru,Получить информацию о грузоместах,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/label/transport-by-order/create,https://api-seller.ozon.ru,Сгенерировать этикетки для транспортных грузомест по идентификатору поставки,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/label/transport-by-order/status,https://api-seller.ozon.ru,Получить статус генерации этикеток для транспортных грузомеcт по идентификатору поставки,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/label/transport/create,https://api-seller.ozon.ru,Сгенерировать этикетки транспортных грузомест по идентификатору грузоместа,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/label/transport/status,https://api-seller.ozon.ru,Получить статус генерации этикеток транспортных грузомест по идентификатору грузоместа,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/rules/get,https://api-seller.ozon.ru,Чек-лист по установке грузомест FBO,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/supplies/get,https://api-seller.ozon.ru,Получить информацию о грузоместах в поставках,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/transport/activate,https://api-seller.ozon.ru,Включить или отключить транспортные грузоместа в поставке,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/transport/activate/status,https://api-seller.ozon.ru,Получить статус включения или отключения транспортных грузомест,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/transport/bind,https://api-seller.ozon.ru,Связать или отвязать грузоместа и транспортные грузоместа,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/transport/bind/status,https://api-seller.ozon.ru,Получить статус связывания или отвязывания грузомест и транспортных грузомест,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/transport/create,https://api-seller.ozon.ru,Создать транспортное грузоместо,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cargoes/transport/create/status,https://api-seller.ozon.ru,Получить статус создания транспортного грузоместа,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/act-discrepancy/pdf,https://api-seller.ozon.ru,Получить акт о расхождениях по отгрузке FBS,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/approve,https://api-seller.ozon.ru,Подтверждение отгрузки,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/cancel,https://api-seller.ozon.ru,Удаление отгрузки,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/approve,https://api-seller.ozon.ru,Подтвердить состав грузоместа,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/cancel,https://api-seller.ozon.ru,Отменить грузоместо,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/create,https://api-seller.ozon.ru,Создать грузоместо,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/document/get,https://api-seller.ozon.ru,Получить документы по грузоместам — ТрН и лист отгрузки,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/fill,https://api-seller.ozon.ru,Наполнить грузоместо отправлениями,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/get,https://api-seller.ozon.ru,Получить информацию о грузоместах,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/label/get,https://api-seller.ozon.ru,Получить этикетку по грузоместам,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/list,https://api-seller.ozon.ru,Получить список грузомест,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/place-into,https://api-seller.ozon.ru,Разместить коробки на палете,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/remove-from,https://api-seller.ozon.ru,Убрать коробки с палеты,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/remove-postings,https://api-seller.ozon.ru,Убрать отправления из грузоместа,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/status/get,https://api-seller.ozon.ru,Получить статус грузомест FBS,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/container/task/info,https://api-seller.ozon.ru,Получить статус задачи грузового места,CarriageAPI; Работа с грузоместами FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/courier-contact/get,https://api-seller.ozon.ru,Получить контактные данные продавца для курьера,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/courier-contact/set,https://api-seller.ozon.ru,Добавить или обновить контактные данные продавца для курьера,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/create,https://api-seller.ozon.ru,Создание отгрузки,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/delivery/list,https://api-seller.ozon.ru,Список методов доставки и отгрузок,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/ettn/status,https://api-seller.ozon.ru,Получить статус проверки электронной ТТН на прослеживаемой перевозке FBS,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/get,https://api-seller.ozon.ru,Информация о перевозке,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/pass/create,https://api-seller.ozon.ru,Создать пропуск,Pass; Пропуски,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/pass/delete,https://api-seller.ozon.ru,Удалить пропуск,Pass; Пропуски,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/pass/update,https://api-seller.ozon.ru,Обновить пропуск,Pass; Пропуски,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/carriage/set-postings,https://api-seller.ozon.ru,Изменение состава отгрузки,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/chat/send/file,https://api-seller.ozon.ru,Отправить файл,ChatAPI; Чаты с покупателями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/chat/send/message,https://api-seller.ozon.ru,Отправить сообщение,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/chat/start,https://api-seller.ozon.ru,Создать новый чат,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/cluster/list,https://api-seller.ozon.ru,Информация о кластерах и их складах,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/delivery-method/list,https://api-seller.ozon.ru,Список методов доставки склада,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/delivery-method/return/settings/get,https://api-seller.ozon.ru,Получить информацию по возвратным настройкам rFBS и rFBS Express,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/delivery/check,https://api-seller.ozon.ru,Проверить доступность доставки для покупателя,DeliveryAPI; Доставка,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/delivery/map,https://api-seller.ozon.ru,Отрисовать точки на карте,DeliveryAPI; Доставка,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/delivery/point/info,https://api-seller.ozon.ru,Получить информацию о точке самовывоза,DeliveryAPI; Доставка,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/delivery/point/list,https://api-seller.ozon.ru,Получить список точек самовывоза,DeliveryAPI; Доставка,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/description-category/attribute,https://api-seller.ozon.ru,Список характеристик категории,CategoryAPI; Атрибуты и характеристики Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/description-category/attribute/values,https://api-seller.ozon.ru,Справочник значений характеристики,CategoryAPI; Атрибуты и характеристики Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/description-category/attribute/values/search,https://api-seller.ozon.ru,Поиск по справочным значениям характеристики,CategoryAPI; Атрибуты и характеристики Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/description-category/tree,https://api-seller.ozon.ru,Дерево категорий и типов товаров,CategoryAPI; Атрибуты и характеристики Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/draft/crossdock/create,https://api-seller.ozon.ru,Создать черновик заявки на поставку кросс-докингом,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/draft/direct/create,https://api-seller.ozon.ru,Создать черновик заявки на прямую поставку,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/draft/multi-cluster/create,https://api-seller.ozon.ru,Создать черновик заявки на поставку для нескольких кластеров,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/act-from/create,https://api-seller.ozon.ru,Сгенерировать акт приёмки,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/act-from/get,https://api-seller.ozon.ru,Получить статус генерации акта приёмки,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/act-to/create,https://api-seller.ozon.ru,Сгенерировать транспортную накладную,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/act-to/get,https://api-seller.ozon.ru,Получить статус генерации транспортной накладной,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/archive/get,https://api-seller.ozon.ru,Получить информацию о завершённой поставке,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/archive/list,https://api-seller.ozon.ru,Получить список завершённых поставок,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/create,https://api-seller.ozon.ru,Создать черновик заявки на поставку без указания способа доставки,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/delete,https://api-seller.ozon.ru,Удалить черновик заявки на поставку,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/product/validate,https://api-seller.ozon.ru,Проверить список товаров для склада партнёра,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/registrate,https://api-seller.ozon.ru,Перевести черновик в действующую поставку,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/seller-dlv/create,https://api-seller.ozon.ru,Создать черновик с доставкой силами продавца,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/seller-dlv/edit,https://api-seller.ozon.ru,Обновить информацию о доставке силами продавца в черновике,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/timeslot/edit,https://api-seller.ozon.ru,Отредактировать таймслот в черновике,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/timeslot/get,https://api-seller.ozon.ru,Получить список таймслотов для прямой поставки,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/tpl-dlv/create,https://api-seller.ozon.ru,Создать черновик заявки на доставку сторонней транспортной компанией,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/direct/tpl-dlv/edit,https://api-seller.ozon.ru,Редактировать черновик поставки со способом доставки сторонней транспортной компанией,DraftDirectFBP; Работа с FBP-черновиками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/create,https://api-seller.ozon.ru,Создать черновик для доставки в drop-off пункт,DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/delete,https://api-seller.ozon.ru,Удалить черновик для доставки в drop-off пункт,DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/dlv/edit,https://api-seller.ozon.ru,Отредактировать детали доставки для drop-off черновика,DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/point/list,https://api-seller.ozon.ru,Получить список drop-off пунктов в провинции,DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/point/timetable,https://api-seller.ozon.ru,Получить расписание работы drop-off пункта,DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/product/validate,https://api-seller.ozon.ru,"Проверить список товаров, которые склад партнёра может принять",DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/province/list,https://api-seller.ozon.ru,Получить список провинций,DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/drop-off/registrate,https://api-seller.ozon.ru,Перевести черновик в действующую поставку,DraftDropOffFBP; Работа с FBP-черновиками c доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/get,https://api-seller.ozon.ru,Получить информацию о черновике поставки,DeliveryFBPDraft; Работа с FBP-черновиками,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/list,https://api-seller.ozon.ru,Список черновиков поставки,DeliveryFBPDraft; Работа с FBP-черновиками,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/pick-up/create,https://api-seller.ozon.ru,Создать черновик заявки на pick-up поставку,DraftPickupFBP; Работа с FBP-черновиками с доставкой pick-up,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/pick-up/delete,https://api-seller.ozon.ru,Отменить черновик заявки на pick-up поставку,DraftPickupFBP; Работа с FBP-черновиками с доставкой pick-up,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/pick-up/dlv/edit,https://api-seller.ozon.ru,Изменить черновик заявки на pick-up поставку,DraftPickupFBP; Работа с FBP-черновиками с доставкой pick-up,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/pick-up/product/validate,https://api-seller.ozon.ru,Провалидировать список товаров для pick-up поставки,DraftPickupFBP; Работа с FBP-черновиками с доставкой pick-up,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/draft/pick-up/registrate,https://api-seller.ozon.ru,Перевести черновик в действующую поставку,DraftPickupFBP; Работа с FBP-черновиками с доставкой pick-up,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/label/create,https://api-seller.ozon.ru,Cоздать задание на генерацию этикеток,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/label/get,https://api-seller.ozon.ru,Получить статус задания на генерацию этикеток,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/direct/cancel,https://api-seller.ozon.ru,Отменить поставку,OrderDirectFBP; Работа с FBP-поставками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/direct/seller-dlv/edit,https://api-seller.ozon.ru,Обновить информацию о доставке силами продавца,OrderDirectFBP; Работа с FBP-поставками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/direct/timeslot/edit,https://api-seller.ozon.ru,Отредактировать таймслот в заявке на поставку,OrderDirectFBP; Работа с FBP-поставками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/direct/timeslot/list,https://api-seller.ozon.ru,Получить список таймслотов для поставки,OrderDirectFBP; Работа с FBP-поставками с доставкой direct,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/drop-off/cancel,https://api-seller.ozon.ru,Отменить поставку drop-off,OrderDropOffFBP; Работа с FBP-поставками с доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/drop-off/dlv/edit,https://api-seller.ozon.ru,Отредактировать информацию о поставке на drop-off пункт,OrderDropOffFBP; Работа с FBP-поставками с доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/drop-off/timetable,https://api-seller.ozon.ru,Получить график работы drop-off пункта,OrderDropOffFBP; Работа с FBP-поставками с доставкой drop-off,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/get,https://api-seller.ozon.ru,Получить информацию о конкретной поставке,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/list,https://api-seller.ozon.ru,Получить список поставок,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/pick-up/cancel,https://api-seller.ozon.ru,Отменить pick-up поставку,OrderPickupFBP; Работа с FBP-поставками с доставкой pick-up,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/order/pick-up/dlv/edit,https://api-seller.ozon.ru,Изменить данные о точке забора,OrderPickupFBP; Работа с FBP-поставками с доставкой pick-up,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbp/warehouse/list,https://api-seller.ozon.ru,Получить список партнёрских складов,DeliveryFBPDraft; Работа с FBP-черновиками,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/fbs/posting/product/exemplar/update,https://api-seller.ozon.ru,Обновить данные экземпляров,FBS&rFBSMarks; Управление кодами маркировки и сборкой заказов для FBS/rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/accrual/by-day,https://api-seller.ozon.ru,Получить начисления за день,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/accrual/postings,https://api-seller.ozon.ru,Получить начисления по отправлениям,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/accrual/types,https://api-seller.ozon.ru,Получить справочник начислений,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/balance,https://api-seller.ozon.ru,Получить отчёт о балансе,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/cash-flow-statement/list,https://api-seller.ozon.ru,Финансовый отчёт,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/compensation,https://api-seller.ozon.ru,Отчёт о компенсациях,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/decompensation,https://api-seller.ozon.ru,Отчёт о декомпенсациях,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/document-b2b-sales,https://api-seller.ozon.ru,Реестр продаж юридическим лицам,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/document-b2b-sales/json,https://api-seller.ozon.ru,Реестр продаж юридическим лицам в JSON-формате,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/mutual-settlement,https://api-seller.ozon.ru,Отчёт о взаиморасчётах,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/products/buyout,https://api-seller.ozon.ru,Отчёт о выкупленных товарах,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/realization/by-day,https://api-seller.ozon.ru,Отчёт о реализации товаров за день,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/finance/realization/posting,https://api-seller.ozon.ru,Позаказный отчёт о реализации товаров,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/invoice/delete,https://api-seller.ozon.ru,Удалить ссылку на счёт-фактуру,SupplierAPI; Накладные,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/invoice/file/upload,https://api-seller.ozon.ru,Загрузка счёта-фактуры,SupplierAPI; Накладные,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/notification/check,https://api-seller.ozon.ru,Проверить URL-адрес для уведомлений,Notification; Работа с пуш-уведомлениями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/notification/delete,https://api-seller.ozon.ru,Удалить URL-адрес для уведомлений,Notification; Работа с пуш-уведомлениями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/notification/enable,https://api-seller.ozon.ru,Включить или выключить уведомления на URL-адрес,Notification; Работа с пуш-уведомлениями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/notification/list,https://api-seller.ozon.ru,Получить информацию по подключённым URL-адресам,Notification; Работа с пуш-уведомлениями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/notification/push-type/list,https://api-seller.ozon.ru,Получить типы пуш-уведомлений,Notification; Работа с пуш-уведомлениями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/notification/set,https://api-seller.ozon.ru,Подключить URL-адрес для уведомлений,Notification; Работа с пуш-уведомлениями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/notification/update,https://api-seller.ozon.ru,Изменить URL-адрес для уведомлений,Notification; Работа с пуш-уведомлениями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/order/cancel,https://api-seller.ozon.ru,Отменить заказ,OrderAPI; Заказы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/order/cancel/check,https://api-seller.ozon.ru,Проверить возможность отмены заказа,OrderAPI; Заказы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/order/cancel/status,https://api-seller.ozon.ru,Получить статус отмены заказа,OrderAPI; Заказы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pass/list,https://api-seller.ozon.ru,Список пропусков,Pass; Пропуски,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/polygon/bind,https://api-seller.ozon.ru,Свяжите метод доставки с полигоном доставки,PolygonAPI; Полигоны,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/polygon/create,https://api-seller.ozon.ru,Создайте полигон доставки,PolygonAPI; Полигоны,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/polygon/delete,https://api-seller.ozon.ru,Удалить полигон из области доставки,PolygonAPI; Полигоны,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/polygon/list,https://api-seller.ozon.ru,Получить список установленных полигонов на метод доставки,PolygonAPI; Полигоны,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/polygon/time/coordinates/update,https://api-seller.ozon.ru,Обновить координаты полигона доставки,PolygonAPI; Полигоны,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/polygon/time/set,https://api-seller.ozon.ru,Установить новое время доставки в полигоне,PolygonAPI; Полигоны,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/cancel,https://api-seller.ozon.ru,Отменить отправление из заказа,FboPostingAPI; Отправления,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/cancel/status,https://api-seller.ozon.ru,Проверить статус отмены отправления,FboPostingAPI; Отправления,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/carriage-available/list,https://api-seller.ozon.ru,Список доступных перевозок,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/cutoff/set,https://api-seller.ozon.ru,Уточнить дату отгрузки отправления,DeliveryrFBS; Доставка rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/digital/codes/upload,https://api-seller.ozon.ru,Загрузить коды цифровых товаров для отправления,Digital; Работа с цифровыми товарами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/digital/list,https://api-seller.ozon.ru,Получить список отправлений,Digital; Работа с цифровыми товарами,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbo/cancel-reason/list,https://api-seller.ozon.ru,Причины отмены отправлений по схеме FBO,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbp/get,https://api-seller.ozon.ru,Получить информацию об отправлении по идентификатору,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbp/list,https://api-seller.ozon.ru,Получить список отправлений,DeliveryFBP; Работа с созданной поставкой FBP,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/cancel-reason,https://api-seller.ozon.ru,Причины отмены отправления,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/package-label/create,https://api-seller.ozon.ru,Создать задание на выгрузку этикеток,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/package-label/get,https://api-seller.ozon.ru,Получить файл с этикетками,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/pick-up-code/verify,https://api-seller.ozon.ru,Проверить код курьера,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/product/traceable/attribute,https://api-seller.ozon.ru,Получить список незаполненных атрибутов для прослеживаемых товаров,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/restrictions,https://api-seller.ozon.ru,Получить ограничения пункта приёма,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/split,https://api-seller.ozon.ru,Разделить заказ на отправления без сборки,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/timeslot/change-restrictions,https://api-seller.ozon.ru,Доступные даты для переноса доставки,DeliveryrFBS; Доставка rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/timeslot/set,https://api-seller.ozon.ru,Перенести дату доставки,DeliveryrFBS; Доставка rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/fbs/traceable/split,https://api-seller.ozon.ru,Разделить отправление с прослеживаемыми товарами,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/global/etgb,https://api-seller.ozon.ru,Таможенные декларации ETGB,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/marks,https://api-seller.ozon.ru,Получить маркировки экземпляров из отправления,FboPostingAPI; Отправления,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/posting/unpaid-legal/product/list,https://api-seller.ozon.ru,"Список неоплаченных товаров, заказанных юридическими лицами",FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/competitors/list,https://api-seller.ozon.ru,Список конкурентов,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/create,https://api-seller.ozon.ru,Создать стратегию,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/delete,https://api-seller.ozon.ru,Удалить стратегию,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/info,https://api-seller.ozon.ru,Информация о стратегии,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/list,https://api-seller.ozon.ru,Список стратегий,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/product/info,https://api-seller.ozon.ru,Цена товара у конкурента,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/products/add,https://api-seller.ozon.ru,Добавить товары в стратегию,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/products/delete,https://api-seller.ozon.ru,Удалить товары из стратегии,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/products/list,https://api-seller.ozon.ru,Список товаров в стратегии,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/status,https://api-seller.ozon.ru,Изменить статус стратегии,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/strategy-ids-by-product-ids,https://api-seller.ozon.ru,Список идентификаторов стратегий,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/pricing-strategy/update,https://api-seller.ozon.ru,Обновить стратегию,PricingStrategyAPI; Стратегии ценообразования,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/action/timer/status,https://api-seller.ozon.ru,Получить статус установленного таймера,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/action/timer/update,https://api-seller.ozon.ru,Обновление таймера актуальности минимальной цены,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/archive,https://api-seller.ozon.ru,Перенести товар в архив,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/attributes/update,https://api-seller.ozon.ru,Обновить характеристики товара,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,GET,/v1/product/certificate/accordance-types,https://api-seller.ozon.ru,Список типов соответствия требованиям (версия 1),CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/bind,https://api-seller.ozon.ru,Привязать сертификат к товару,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/create,https://api-seller.ozon.ru,Добавить сертификаты для товаров,CertificationAPI; Сертификаты качества,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/delete,https://api-seller.ozon.ru,Удалить сертификат,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/info,https://api-seller.ozon.ru,Информация о сертификате,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/list,https://api-seller.ozon.ru,Список сертификатов,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/product_status/list,https://api-seller.ozon.ru,Список возможных статусов товаров,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/products/list,https://api-seller.ozon.ru,"Список товаров, привязанных к сертификату",CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/rejection_reasons/list,https://api-seller.ozon.ru,Возможные причины отклонения сертификата,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/status/list,https://api-seller.ozon.ru,Возможные статусы сертификатов,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,GET,/v1/product/certificate/types,https://api-seller.ozon.ru,Справочник типов документов,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certificate/unbind,https://api-seller.ozon.ru,Отвязать товар от сертификата,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/certification/list,https://api-seller.ozon.ru,Список сертифицируемых категорий,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/digital/stocks/import,https://api-seller.ozon.ru,Обновить количество цифровых товаров,Digital; Работа с цифровыми товарами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/import-by-sku,https://api-seller.ozon.ru,Создать товар по SKU,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/import/info,https://api-seller.ozon.ru,Узнать статус добавления или обновления товара,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/import/prices,https://api-seller.ozon.ru,Обновить цену,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/info/description,https://api-seller.ozon.ru,Получить описание товара,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/info/discounted,https://api-seller.ozon.ru,Узнать информацию об уценке и основном товаре по SKU уценённого товара,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/info/stocks-by-warehouse/fbo,https://api-seller.ozon.ru,Получить информацию о стоках на складах FBO,ProductAPI; BetaMethod; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/info/stocks-by-warehouse/fbs,https://api-seller.ozon.ru,Информация об остатках на складах продавца (FBS и rFBS),Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/info/subscription,https://api-seller.ozon.ru,Количество подписавшихся на товар пользователей,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/info/warehouse/stocks,https://api-seller.ozon.ru,Получить информацию по остаткам на складе FBS и rFBS,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/info/wrong-volume,https://api-seller.ozon.ru,Список товаров с некорректными ОВХ,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/pictures/import,https://api-seller.ozon.ru,Загрузить или обновить изображения товара,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/placement-zone/info,https://api-seller.ozon.ru,Получить зоны размещения товаров по SKU перед поставкой,CategoryAPI; Атрибуты и характеристики Ozon,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/prices/details,https://api-seller.ozon.ru,Получить подробную информацию о ценах товаров,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/quant/info,https://api-seller.ozon.ru,Информация об эконом-товаре,Quants; Работа с квантами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/quant/list,https://api-seller.ozon.ru,Список эконом-товаров,Quants; Работа с квантами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/rating-by-sku,https://api-seller.ozon.ru,Получить контент-рейтинг товаров по SKU,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/related-sku/get,https://api-seller.ozon.ru,Получить связанные SKU,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/stairway-discount/by-quantity/get,https://api-seller.ozon.ru,Получить информацию о скидке от количества,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/stairway-discount/by-quantity/set,https://api-seller.ozon.ru,Управлять скидкой от количества,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/unarchive,https://api-seller.ozon.ru,Вернуть товар из архива,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/update/discount,https://api-seller.ozon.ru,Установить скидку на уценённый товар,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/update/offer-id,https://api-seller.ozon.ru,Изменить артикулы товаров из системы продавца,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/visibility/info,https://api-seller.ozon.ru,Получить информацию о видимости товара,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/product/visibility/set,https://api-seller.ozon.ru,Настроить видимость товара на витрине Ozon и Ozon Селект,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/answer/create,https://api-seller.ozon.ru,Создать ответ на вопрос,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/answer/delete,https://api-seller.ozon.ru,Удалить ответ на вопрос,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/answer/list,https://api-seller.ozon.ru,Список ответов на вопрос,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/change-status,https://api-seller.ozon.ru,Изменить статус вопросов,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/count,https://api-seller.ozon.ru,Количество вопросов по статусам,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/info,https://api-seller.ozon.ru,Информация о вопросе,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/list,https://api-seller.ozon.ru,Список вопросов,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/question/top-sku,https://api-seller.ozon.ru,Товары с наибольшим количеством вопросов,Questions&Answers; Работа с вопросами и ответами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/rating/history,https://api-seller.ozon.ru,Получить информацию о рейтингах продавца за период,SellerRating; Рейтинг продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/rating/index/fbs/info,https://api-seller.ozon.ru,Получить индекс ошибок FBS и rFBS,SellerRating; Рейтинг продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/rating/index/fbs/posting/list,https://api-seller.ozon.ru,"Список отправлений, которые повлияли на индекс ошибок FBS и rFBS",SellerRating; Рейтинг продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/rating/summary,https://api-seller.ozon.ru,Получить информацию о текущих рейтингах продавца,SellerRating; Рейтинг продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/receipts/get,https://api-seller.ozon.ru,Получить чек в формате PDF,Receipt; Чеки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/receipts/seller/list,https://api-seller.ozon.ru,Получить список чеков продавца,Receipt; Чеки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/receipts/upload,https://api-seller.ozon.ru,Загрузить чек,Receipt; Чеки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/removal/from-stock/list,https://api-seller.ozon.ru,Отчёт по вывозу и утилизации со стока FBO,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/removal/from-supply/list,https://api-seller.ozon.ru,Отчёт по вывозу и утилизации с поставки FBO,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/discounted/create,https://api-seller.ozon.ru,Отчёт об уценённых товарах,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/info,https://api-seller.ozon.ru,Информация об отчёте,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/list,https://api-seller.ozon.ru,Список отчётов,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/marked-products-sales/create,https://api-seller.ozon.ru,Сгенерировать отчёт по продажам товаров с маркировкой,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/placement/by-products/create,https://api-seller.ozon.ru,Получить отчёт о стоимости размещения по товарам,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/placement/by-supplies/create,https://api-seller.ozon.ru,Получить отчёт о стоимости размещения по поставкам,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/postings/create,https://api-seller.ozon.ru,Отчёт об отправлениях,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/products/create,https://api-seller.ozon.ru,Отчёт по товарам,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/realization/posting/create,https://api-seller.ozon.ru,Получить позаказный отчёт о реализации товаров,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/report/warehouse/stock,https://api-seller.ozon.ru,Отчёт об остатках на FBS-складе,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/giveout/barcode,https://api-seller.ozon.ru,Значение штрихкода для возвратных отгрузок,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/giveout/barcode-reset,https://api-seller.ozon.ru,Сгенерировать новый штрихкод,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/giveout/get-pdf,https://api-seller.ozon.ru,Штрихкод для получения возвратной отгрузки в формате PDF,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/giveout/get-png,https://api-seller.ozon.ru,Штрихкод для получения возвратной отгрузки в формате PNG,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/giveout/info,https://api-seller.ozon.ru,Информация о возвратной отгрузке,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/giveout/is-enabled,https://api-seller.ozon.ru,Проверить возможность получения возвратных отгрузок по штрихкоду,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/giveout/list,https://api-seller.ozon.ru,Список возвратных отгрузок,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/pass/create,https://api-seller.ozon.ru,Создать пропуск для возврата,Pass; Пропуски,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/pass/delete,https://api-seller.ozon.ru,Удалить пропуск для возврата,Pass; Пропуски,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/return/pass/update,https://api-seller.ozon.ru,Обновить пропуск для возврата,Pass; Пропуски,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/returns/company/fbs/info,https://api-seller.ozon.ru,Количество возвратов FBS,ReturnAPI; Возвратные отгрузки,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/returns/list,https://api-seller.ozon.ru,Информация о возвратах FBO и FBS,ReturnsAPI; Возвраты товаров FBO и FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/returns/rfbs/action/set,https://api-seller.ozon.ru,Передать доступные действия для rFBS возвратов,RFBSReturnsAPI; Возвраты товаров rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/returns/settings/utilization/history,https://api-seller.ozon.ru,Получить историю изменений автоутилизации,ReturnsAPI; Возвраты товаров FBO и FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/returns/settings/utilization/info,https://api-seller.ozon.ru,Получить настройки автоутилизации,ReturnsAPI; Возвраты товаров FBO и FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/returns/settings/utilization/update,https://api-seller.ozon.ru,Обновить настройки автоутилизации,ReturnsAPI; Возвраты товаров FBO и FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/review/change-status,https://api-seller.ozon.ru,Изменить статус отзывов,ReviewAPI; Работа с отзывами,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/review/comment/create,https://api-seller.ozon.ru,Оставить комментарий на отзыв,ReviewAPI; Работа с отзывами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/review/comment/delete,https://api-seller.ozon.ru,Удалить комментарий на отзыв,ReviewAPI; Работа с отзывами,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/review/comment/list,https://api-seller.ozon.ru,Получить список комментариев на отзыв,ReviewAPI; Работа с отзывами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/review/count,https://api-seller.ozon.ru,Количество отзывов по статусам,ReviewAPI; Работа с отзывами,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/review/info,https://api-seller.ozon.ru,Получить информацию об отзыве,ReviewAPI; Работа с отзывами,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/review/list,https://api-seller.ozon.ru,Получить список отзывов,ReviewAPI; Работа с отзывами,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/roles,https://api-seller.ozon.ru,Получить список ролей и методов по API-ключу,APIkey; Информация по API-ключу,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/search-queries/text,https://api-seller.ozon.ru,Получить список поисковых запросов по тексту,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/search-queries/top,https://api-seller.ozon.ru,Получить список популярных поисковых запросов,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/archive,https://api-seller.ozon.ru,Перенести акцию в архив,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/change-activity,https://api-seller.ozon.ru,Включить или выключить акцию,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/create/discount,https://api-seller.ozon.ru,Создать акцию с механикой «Скидка»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/create/discount-with-condition,https://api-seller.ozon.ru,Создать акцию с механикой «Скидка от суммы заказа»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/create/installment,https://api-seller.ozon.ru,Создать акцию с механикой «Беспроцентная рассрочка»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/create/multi-level-discount,https://api-seller.ozon.ru,Создать акцию с механикой «Многоуровневая скидка от суммы»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/create/voucher,https://api-seller.ozon.ru,Создать акцию с механикой «Скидка по промокоду»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/list,https://api-seller.ozon.ru,Получить список акций,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/products/add,https://api-seller.ozon.ru,Добавить товары в акцию,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/products/candidates,https://api-seller.ozon.ru,Получить список доступных для акции товаров,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/products/delete,https://api-seller.ozon.ru,Удалить товары из акции,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/products/list,https://api-seller.ozon.ru,Получить список участвующих в акции товаров,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/update/discount,https://api-seller.ozon.ru,Обновить акцию с механикой «Скидка»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/update/discount-with-condition,https://api-seller.ozon.ru,Обновить акцию с механикой «Скидка от суммы заказа»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/update/installment,https://api-seller.ozon.ru,Обновить акцию с механикой «Беспроцентная рассрочка»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/update/multi-level-discount,https://api-seller.ozon.ru,Обновить акцию с механикой «Многоуровневая скидка от суммы»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/update/voucher,https://api-seller.ozon.ru,Обновить акцию с механикой «Скидка по промокоду»,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller-actions/voucher/get,https://api-seller.ozon.ru,Получить файл с промокодами в формате CSV,SellerActions; Акции продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller/info,https://api-seller.ozon.ru,Информация о кабинете продавца,SellerInfo; Информация по кабинету продавца,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/seller/ozon-logistics/info,https://api-seller.ozon.ru,Информация о подключении Ozon Доставки,SellerInfo; Информация по кабинету продавца,False,https://docs.ozon.ru/api/seller/
+seller,GET,/v1/supplier/available_warehouses,https://api-seller.ozon.ru,Загруженность складов Ozon,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/act/accept,https://api-seller.ozon.ru,Согласовать акт,SupplyOrderAPI; Работа с актами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/act/accept/status,https://api-seller.ozon.ru,Получить статус согласования акта,SupplyOrderAPI; Работа с актами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/act/product/get,https://api-seller.ozon.ru,Получить информацию о товарах в акте,SupplyOrderAPI; Работа с актами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/act/summary/get,https://api-seller.ozon.ru,Получить информацию об акте,SupplyOrderAPI; Работа с актами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/bundle,https://api-seller.ozon.ru,Состав поставки или заявки на поставку,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/cancel,https://api-seller.ozon.ru,Отменить заявку на поставку,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/cancel/status,https://api-seller.ozon.ru,Получить статус отмены заявки на поставку,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/content/update,https://api-seller.ozon.ru,Редактирование товарного состава,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/content/update/status,https://api-seller.ozon.ru,Информация о статусе редактирования товарного состава,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/content/update/validation,https://api-seller.ozon.ru,Проверить новый товарный состав,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/details,https://api-seller.ozon.ru,Получить подробную информацию о заявке на поставку,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/pass/create,https://api-seller.ozon.ru,Указать данные о водителе и автомобиле,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/pass/status,https://api-seller.ozon.ru,Статус ввода данных о водителе и автомобиле,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/status/counter,https://api-seller.ozon.ru,Количество заявок по статусам,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/timeslot/get,https://api-seller.ozon.ru,Интервалы поставки,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/timeslot/status,https://api-seller.ozon.ru,Статус интервала поставки,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/supply-order/timeslot/update,https://api-seller.ozon.ru,Обновить интервал поставки,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/archive,https://api-seller.ozon.ru,Перенести склад в архив,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/erfbs/aggregator/create,https://api-seller.ozon.ru,Создать склад с методом доставки «Партнёры Ozon»,rFBSWarehouseSetup; Создание складов rFBS Express и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/erfbs/aggregator/delivery-method/update,https://api-seller.ozon.ru,Обновить метод доставки «Партнёры Ozon»,rFBSWarehouseSetup; Создание складов rFBS Express и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/erfbs/non-integrated/create,https://api-seller.ozon.ru,Создать склад с методом доставки «Вы или сторонняя служба»,rFBSWarehouseSetup; Создание складов rFBS Express и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/erfbs/non-integrated/delivery-method/update,https://api-seller.ozon.ru,Обновить метод доставки «Вы или сторонняя служба»,rFBSWarehouseSetup; Создание складов rFBS Express и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/erfbs/update,https://api-seller.ozon.ru,Обновить склад,rFBSWarehouseSetup; Создание складов rFBS Express и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbo/list,https://api-seller.ozon.ru,Поиск точек для отгрузки поставки,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbo/seller/list,https://api-seller.ozon.ru,Получить список складов продавца,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/create,https://api-seller.ozon.ru,Создать склад,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/create/drop-off/list,https://api-seller.ozon.ru,Получить список drop-off пунктов для создания склада,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/create/drop-off/timeslot/list,https://api-seller.ozon.ru,Получить список таймслотов для создания склада с отгрузкой drop-off,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/create/pick-up/timeslot/list,https://api-seller.ozon.ru,Получить список таймслотов для создания склада с отгрузкой pick-up,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/create/return-point/list,https://api-seller.ozon.ru,Получить список пунктов возврата для создания склада,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/first-mile/update,https://api-seller.ozon.ru,Обновить первую милю,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/pickup/courier/cancel,https://api-seller.ozon.ru,Отменить вызов курьера на забор отгрузки pick-up,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/pickup/courier/create,https://api-seller.ozon.ru,Создать вызов курьера на забор отгрузки pick-up,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/pickup/history/list,https://api-seller.ozon.ru,Получить историю отгрузок курьерам,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/pickup/planning/list,https://api-seller.ozon.ru,Получить список складов для планирования отгрузок курьеру,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/return-mile/check,https://api-seller.ozon.ru,Проверить необходимость установки возвратной мили на склад,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/return-mile/info,https://api-seller.ozon.ru,Получить информацию о возвратной миле,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/update,https://api-seller.ozon.ru,Обновить склад,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/update/drop-off/list,https://api-seller.ozon.ru,Получить список drop-off пунктов для изменения информации склада,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/update/drop-off/timeslot/list,https://api-seller.ozon.ru,Получить список таймслотов для обновления склада с отгрузкой drop-off,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/update/pick-up/timeslot/list,https://api-seller.ozon.ru,Получить список таймслотов для обновления склада с отгрузкой pick-up,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/fbs/update/return-point/list,https://api-seller.ozon.ru,Получить список пунктов возврата для обновления склада,FBSWarehouseSetup; Создание FBS-складов и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/invalid-products/get,https://api-seller.ozon.ru,Получить список товаров с ограничениями по доставке,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/list,https://api-seller.ozon.ru,Список складов,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/operation/status,https://api-seller.ozon.ru,Получить статус операции,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/ozon/list,https://api-seller.ozon.ru,Получить список складов Ozon,FBOWarehouse; Склады FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/rfbs/pause,https://api-seller.ozon.ru,Поставить rFBS-склад на паузу,rFBSWarehouseSetup; Создание складов rFBS Express и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/rfbs/unpause,https://api-seller.ozon.ru,Снять rFBS-склад с паузы,rFBSWarehouseSetup; Создание складов rFBS Express и управление ими,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/unarchive,https://api-seller.ozon.ru,Перенести склад из архива,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v1/warehouse/warehouses-with-invalid-products,https://api-seller.ozon.ru,Получить список складов с ограниченными для доставки товарами,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/actions/discounts-task/list,https://api-seller.ozon.ru,Получить список заявок на скидку,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/analytics/stock_on_warehouses,https://api-seller.ozon.ru,Отчёт по остаткам и товарам,AnalyticsAPI; Аналитические отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/cargoes/create/info,https://api-seller.ozon.ru,Получить информацию по установке грузомест,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/cargoes/delete,https://api-seller.ozon.ru,Удалить грузоместа и транспортные грузоместа в заявке на поставку,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/cargoes/delete/status,https://api-seller.ozon.ru,Получить информацию о статусе удаления грузомест и транспортных грузомест,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/cargoes/get,https://api-seller.ozon.ru,Получить информацию о грузоместах,FBOTransport; Работа с транспортными грузоместами FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/carriage/delivery/list,https://api-seller.ozon.ru,Список методов доставки и отгрузок,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/chat/read,https://api-seller.ozon.ru,Отметить сообщения как прочитанные,Premium; Premium-методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/cluster/list,https://api-seller.ozon.ru,Получить информацию о макролокальных кластерах,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/conditional-cancellation/approve,https://api-seller.ozon.ru,Подтвердить заявку на отмену rFBS,CancellationAPI; Отмены заказов,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/conditional-cancellation/list,https://api-seller.ozon.ru,Получить список заявок на отмену rFBS,CancellationAPI; Отмены заказов,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/conditional-cancellation/reject,https://api-seller.ozon.ru,Отклонить заявку на отмену rFBS,CancellationAPI; Отмены заказов,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/delivery-method/list,https://api-seller.ozon.ru,Список методов доставки realFBS-склада,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/delivery/checkout,https://api-seller.ozon.ru,Получить доступные варианты доставки,DeliveryAPI; Доставка,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/draft/create/info,https://api-seller.ozon.ru,Получить информацию о черновике заявки на поставку,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/draft/supply/create,https://api-seller.ozon.ru,Создать заявку на поставку по черновику,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/draft/supply/create/status,https://api-seller.ozon.ru,Получить информацию о создании заявки на поставку,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/draft/timeslot/info,https://api-seller.ozon.ru,Получить список доступных таймслотов,FboSupplyRequest; Создание и управление заявками на поставку FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/fbs/posting/delivered,https://api-seller.ozon.ru,Изменить статус на «Доставлено»,DeliveryrFBS; Доставка rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/fbs/posting/delivering,https://api-seller.ozon.ru,Изменить статус на «Доставляется»,DeliveryrFBS; Доставка rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/fbs/posting/last-mile,https://api-seller.ozon.ru,Изменить статус на «Последняя миля»,DeliveryrFBS; Доставка rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/fbs/posting/tracking-number/set,https://api-seller.ozon.ru,Добавить трек-номера,DeliveryrFBS; Доставка rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/finance/realization,https://api-seller.ozon.ru,Отчёт о реализации товаров (версия 2),FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/invoice/create-or-update,https://api-seller.ozon.ru,Создать или изменить счёт-фактуру,SupplierAPI; Накладные,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/invoice/get,https://api-seller.ozon.ru,Получить информацию о счёте-фактуре,SupplierAPI; Накладные,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/order/create,https://api-seller.ozon.ru,Создать заказ,OrderAPI; Заказы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/polygon/bind,https://api-seller.ozon.ru,Связать метод доставки с полигоном,PolygonAPI; Полигоны,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/digital/list,https://api-seller.ozon.ru,Получить список отправлений,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbo/get,https://api-seller.ozon.ru,Информация об отправлении,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbo/list,https://api-seller.ozon.ru,Список отправлений,FBO; Доставка FBO,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/check-status,https://api-seller.ozon.ru,Статус отгрузки и документов,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/create,https://api-seller.ozon.ru,Подтвердить отгрузку и создать документы,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/get-barcode,https://api-seller.ozon.ru,Штрихкод для отгрузки отправления,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/get-barcode/text,https://api-seller.ozon.ru,Значение штрихкода для отгрузки отправления,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/get-container-labels,https://api-seller.ozon.ru,Этикетки для грузового места,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/get-pdf,https://api-seller.ozon.ru,Получить PDF c документами,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/get-postings,https://api-seller.ozon.ru,Список отправлений в акте,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/act/list,https://api-seller.ozon.ru,Список актов по отгрузкам,DeliveryFBS; Доставка FBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/arbitration,https://api-seller.ozon.ru,Открыть спор по отправлению,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/awaiting-delivery,https://api-seller.ozon.ru,Передать отправление к отгрузке,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/cancel,https://api-seller.ozon.ru,Отменить отправление,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/cancel-reason/list,https://api-seller.ozon.ru,Причины отмены отправлений,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/digital/act/check-status,https://api-seller.ozon.ru,Статус формирования накладной,DeliveryFBS; Доставка FBS,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/digital/act/get-pdf,https://api-seller.ozon.ru,Получить лист отгрузки по перевозке,DeliveryFBS; Доставка FBS,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/get-by-barcode,https://api-seller.ozon.ru,Получить информацию об отправлении по штрихкоду,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/package-label,https://api-seller.ozon.ru,Напечатать этикетку,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/package-label/create,https://api-seller.ozon.ru,Создать задание на формирование этикеток,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/product/cancel,https://api-seller.ozon.ru,Отменить отправку некоторых товаров в отправлении,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/product/country/list,https://api-seller.ozon.ru,Список доступных стран-изготовителей,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/posting/fbs/product/country/set,https://api-seller.ozon.ru,Добавить информацию о стране-изготовителе товара,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,GET,/v2/product/certificate/accordance-types/list,https://api-seller.ozon.ru,Список типов соответствия требованиям (версия 2),CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/product/certificate/create,https://api-seller.ozon.ru,Создать сертификат качества,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/product/certification/list,https://api-seller.ozon.ru,Список сертифицируемых категорий,CertificationAPI; Сертификаты качества,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/product/certification/options,https://api-seller.ozon.ru,Получить параметры для создания сертификата качества,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/product/certification/params,https://api-seller.ozon.ru,Получить обязательные параметры для создания сертификата качества,BetaMethod; Прочие методы,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/product/info/stocks-by-warehouse/fbs,https://api-seller.ozon.ru,Получить информацию об остатках на складах продавца,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/product/pictures/info,https://api-seller.ozon.ru,Получить изображения товаров,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/products/delete,https://api-seller.ozon.ru,Удалить товар без SKU из архива,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/products/stocks,https://api-seller.ozon.ru,Обновить количество товаров на складах,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/report/returns/create,https://api-seller.ozon.ru,Отчёт о возвратах,ReportAPI; Отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/returns/rfbs/get,https://api-seller.ozon.ru,Информация о заявке на возврат,RFBSReturnsAPI; Возвраты товаров rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/returns/rfbs/list,https://api-seller.ozon.ru,Список заявок на возврат,RFBSReturnsAPI; Возвраты товаров rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/review/change-status,https://api-seller.ozon.ru,Изменить статус отзывов,ReviewAPI; Работа с отзывами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/review/comment/delete,https://api-seller.ozon.ru,Удалить комментарий на отзыв,ReviewAPI; Работа с отзывами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/review/count,https://api-seller.ozon.ru,Получить количество отзывов по статусам,ReviewAPI; Работа с отзывами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/review/info,https://api-seller.ozon.ru,Получить информацию по отзыву,ReviewAPI; Работа с отзывами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/review/list,https://api-seller.ozon.ru,Получить список отзывов,ReviewAPI; Работа с отзывами,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/supply-order/timeslot/list,https://api-seller.ozon.ru,Получить список доступных интервалов поставки,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v2/warehouse/list,https://api-seller.ozon.ru,Список складов,WarehouseAPI; Работа со складами FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/chat/history,https://api-seller.ozon.ru,История чата,ChatAPI; Чаты с покупателями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/chat/list,https://api-seller.ozon.ru,Список чатов,ChatAPI; Чаты с покупателями,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/finance/transaction/list,https://api-seller.ozon.ru,Список транзакций,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/finance/transaction/totals,https://api-seller.ozon.ru,Суммы транзакций,FinanceAPI; Финансовые отчёты,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/posting/fbo/list,https://api-seller.ozon.ru,Получить список отправлений,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/posting/fbs/get,https://api-seller.ozon.ru,Получить информацию об отправлении по идентификатору,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/posting/fbs/list,https://api-seller.ozon.ru,Список отправлений,FBS; Обработка заказов FBS и rFBS,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/posting/fbs/unfulfilled/list,https://api-seller.ozon.ru,Список необработанных отправлений,FBS; Обработка заказов FBS и rFBS,True,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/posting/multiboxqty/set,https://api-seller.ozon.ru,Указать количество коробок для многокоробочных отправлений,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/product/import,https://api-seller.ozon.ru,Создать или обновить товар,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/product/info/list,https://api-seller.ozon.ru,Получить информацию о товарах по идентификаторам,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/product/list,https://api-seller.ozon.ru,Список товаров,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/supply-order/get,https://api-seller.ozon.ru,Информация о заявке на поставку,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v3/supply-order/list,https://api-seller.ozon.ru,Список заявок на поставку на склад Ozon,FBO; Доставка FBO,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v4/posting/fbs/list,https://api-seller.ozon.ru,Получить список отправлений,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v4/posting/fbs/ship,https://api-seller.ozon.ru,Собрать заказ (версия 4),FBS&rFBSMarks; Управление кодами маркировки и сборкой заказов для FBS/rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v4/posting/fbs/ship/package,https://api-seller.ozon.ru,Частичная сборка отправления (версия 4),FBS&rFBSMarks; Управление кодами маркировки и сборкой заказов для FBS/rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v4/posting/fbs/unfulfilled/list,https://api-seller.ozon.ru,Получить список необработанных отправлений,FBS; Обработка заказов FBS и rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v4/product/info/attributes,https://api-seller.ozon.ru,Получить описание характеристик товара,ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v4/product/info/limit,https://api-seller.ozon.ru,"Лимиты на ассортимент, создание и обновление товаров",ProductAPI; Загрузка и обновление товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v4/product/info/stocks,https://api-seller.ozon.ru,Информация о количестве товаров,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v5/fbs/posting/product/exemplar/status,https://api-seller.ozon.ru,Получить статус добавления экземпляров,FBS&rFBSMarks; Управление кодами маркировки и сборкой заказов для FBS/rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v5/fbs/posting/product/exemplar/validate,https://api-seller.ozon.ru,Валидация кодов маркировки,FBS&rFBSMarks; Управление кодами маркировки и сборкой заказов для FBS/rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v5/product/info/prices,https://api-seller.ozon.ru,Получить информацию о цене товара,Prices&StocksAPI; Цены и остатки товаров,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v6/fbs/posting/product/exemplar/create-or-get,https://api-seller.ozon.ru,Получить данные созданных экземпляров,FBS&rFBSMarks; Управление кодами маркировки и сборкой заказов для FBS/rFBS,False,https://docs.ozon.ru/api/seller/
+seller,POST,/v6/fbs/posting/product/exemplar/set,https://api-seller.ozon.ru,Проверить и сохранить данные экземпляров,FBS&rFBSMarks; Управление кодами маркировки и сборкой заказов для FBS/rFBS,False,https://docs.ozon.ru/api/seller/

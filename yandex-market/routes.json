@@ -1,0 +1,3958 @@
+{
+  "marketplace": "yandex-market",
+  "catalog_generated_at": "2026-09-25",
+  "source_snapshot_at": "2026-09-22",
+  "current_status": "not_live_verified",
+  "route_count": 169,
+  "source_count": 1,
+  "sources": [
+    {
+      "category": "partner-api",
+      "url": "https://github.com/yandex-market/yandex-market-partner-api/tree/321c272cfe218c21fd1644242cef205b6c9b8dbe/openapi",
+      "root_sha256": "e9d0c2a455c0648ef7e1aaa925ec44d798da71367183e6b488a47497603a2d7e"
+    }
+  ],
+  "routes": [
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/goods-feedback-advertiser",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/goods-feedback-advertiser"
+      ],
+      "summary": "Получение отзывов о товарах для рекламодателей",
+      "tags": [
+        "goods-feedback",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getGoodsFeedbacksUrbanads",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_goods-feedback-advertiser.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/goods-questions",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/goods-questions"
+      ],
+      "summary": "Получение вопросов о товарах продавца",
+      "tags": [
+        "goods-questions",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getGoodsQuestions",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_goods-questions.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/goods-questions/answers",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/goods-questions/answers"
+      ],
+      "summary": "Получение ответов на вопрос",
+      "tags": [
+        "goods-questions",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getGoodsQuestionAnswers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_goods-questions_answers.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/goods-questions/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/goods-questions/update"
+      ],
+      "summary": "Создание, изменение и удаление ответа или комментария",
+      "tags": [
+        "goods-questions",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updateGoodsQuestionTextEntity",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_goods-questions_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/logistics-points",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/logistics-points"
+      ],
+      "summary": "Получение точек ПВЗ Маркета",
+      "tags": [
+        "logistic-points",
+        "laas"
+      ],
+      "operation_id": "getLogisticPoints",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_logistics-points.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/offer-mappings/barcodes/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/offer-mappings/barcodes/generate"
+      ],
+      "summary": "Генерация штрихкодов",
+      "tags": [
+        "business-offer-mappings",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "generateOfferBarcodes",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_offer-mappings_barcodes_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/offers/documents",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/offers/documents"
+      ],
+      "summary": "Получение документов",
+      "tags": [
+        "documents",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getDocuments",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_offers_documents.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/offers/documents/create",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/offers/documents/create"
+      ],
+      "summary": "Создание документов",
+      "tags": [
+        "documents",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "createDocuments",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_offers_documents_create.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/offers/documents/delete",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/offers/documents/delete"
+      ],
+      "summary": "Удаление документов",
+      "tags": [
+        "documents",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "deleteDocuments",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_offers_documents_delete.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/offers/documents/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/offers/documents/update"
+      ],
+      "summary": "Обновление документов",
+      "tags": [
+        "documents",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "updateDocuments",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_offers_documents_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/operations",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/operations"
+      ],
+      "summary": "Получение статусов операций",
+      "tags": [
+        "operations",
+        "laas"
+      ],
+      "operation_id": "getOperations",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_operations.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/orders",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/orders"
+      ],
+      "summary": "Информация о заказах в кабинете",
+      "tags": [
+        "orders",
+        "fbs",
+        "dbs",
+        "fby",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getBusinessOrders",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_orders.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/reports/marketing-detalization/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/reports/marketing-detalization/generate"
+      ],
+      "summary": "Отчет по счету маркетинга",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "generateMarketingDetalizationReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_reports_marketing-detalization_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/businesses/{businessId}/returns/decisions",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/businesses/{businessId}/returns/decisions"
+      ],
+      "summary": "Получение возможных решений по возврату",
+      "tags": [
+        "returns",
+        "dbs",
+        "fbs",
+        "express",
+        "fby"
+      ],
+      "operation_id": "getReturnAvailableDecisions",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_businesses_businessId_returns_decisions.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/campaigns/{campaignId}/delivery-options",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/campaigns/{campaignId}/delivery-options"
+      ],
+      "summary": "Получение доступных вариантов доставки заказов",
+      "tags": [
+        "delivery-options",
+        "laas"
+      ],
+      "operation_id": "getDeliveryOptions",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_campaigns_campaignId_delivery-options.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/campaigns/{campaignId}/orders/create",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/campaigns/{campaignId}/orders/create"
+      ],
+      "summary": "Создание заказа",
+      "tags": [
+        "orders",
+        "laas"
+      ],
+      "operation_id": "createOrder",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_campaigns_campaignId_orders_create.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/campaigns/{campaignId}/orders/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/campaigns/{campaignId}/orders/update"
+      ],
+      "summary": "Изменение заказа",
+      "tags": [
+        "orders",
+        "laas"
+      ],
+      "operation_id": "updateOrder",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_campaigns_campaignId_orders_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/campaigns/{campaignId}/orders/update-options",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/campaigns/{campaignId}/orders/update-options"
+      ],
+      "summary": "Получение временных интервалов для изменения заказа",
+      "tags": [
+        "orders",
+        "laas"
+      ],
+      "operation_id": "getOrderUpdateOptions",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_campaigns_campaignId_orders_update-options.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/campaigns/{campaignId}/return-delivery-options",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/campaigns/{campaignId}/return-delivery-options"
+      ],
+      "summary": "Получение подходящих для возврата пунктов выдачи",
+      "tags": [
+        "delivery-options",
+        "laas"
+      ],
+      "operation_id": "getReturnDeliveryOptions",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_campaigns_campaignId_return-delivery-options.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/campaigns/{campaignId}/returns/cancel",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/campaigns/{campaignId}/returns/cancel"
+      ],
+      "summary": "Отмена возврата",
+      "tags": [
+        "returns",
+        "laas"
+      ],
+      "operation_id": "cancelReturn",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_campaigns_campaignId_returns_cancel.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/campaigns/{campaignId}/returns/create",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/campaigns/{campaignId}/returns/create"
+      ],
+      "summary": "Создание возврата",
+      "tags": [
+        "returns",
+        "laas"
+      ],
+      "operation_id": "createReturn",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_campaigns_campaignId_returns_create.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v1/reports/documents/barcodes/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v1/reports/documents/barcodes/generate"
+      ],
+      "summary": "Получение файла со штрихкодами",
+      "tags": [
+        "reports",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "generateBarcodesReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v1_reports_documents_barcodes_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/auth/token",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/auth/token"
+      ],
+      "summary": "Получение информации о токене авторизации",
+      "tags": [
+        "auth",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getAuthTokenInfo",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_auth_token.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/businesses/{businessId}/bids",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/bids"
+      ],
+      "summary": "Включение буста продаж и установка ставок",
+      "tags": [
+        "bids",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "putBidsForBusiness",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_bids.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/bids/info",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/bids/info"
+      ],
+      "summary": "Информация об установленных ставках",
+      "tags": [
+        "bids",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "getBidsInfoForBusiness",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_bids_info.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/bids/recommendations",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/bids/recommendations"
+      ],
+      "summary": "Рекомендованные ставки для заданных товаров",
+      "tags": [
+        "bids",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "getBidsRecommendations",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_bids_recommendations.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/businesses/{businessId}/chat",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/chat"
+      ],
+      "summary": "Получение чата по идентификатору",
+      "tags": [
+        "chats",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "getChat",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_chat.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/chats",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/chats"
+      ],
+      "summary": "Получение доступных чатов",
+      "tags": [
+        "chats",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "getChats",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_chats.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/chats/file/send",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/chats/file/send"
+      ],
+      "summary": "Отправка файла в чат",
+      "tags": [
+        "chats",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "sendFileToChat",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_chats_file_send.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/chats/history",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/chats/history"
+      ],
+      "summary": "Получение истории сообщений в чате",
+      "tags": [
+        "chats",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "getChatHistory",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_chats_history.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/businesses/{businessId}/chats/message",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/chats/message"
+      ],
+      "summary": "Получение сообщения в чате",
+      "tags": [
+        "chats",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "getChatMessage",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_chats_message.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/chats/message",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/chats/message"
+      ],
+      "summary": "Отправка сообщения в чат",
+      "tags": [
+        "chats",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "sendMessageToChat",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_chats_message.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/chats/new",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/chats/new"
+      ],
+      "summary": "Создание нового чата с покупателем",
+      "tags": [
+        "chats",
+        "dbs",
+        "fbs",
+        "fby",
+        "express"
+      ],
+      "operation_id": "createChat",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_chats_new.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/goods-feedback",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/goods-feedback"
+      ],
+      "summary": "Получение отзывов о товарах продавца",
+      "tags": [
+        "goods-feedback",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getGoodsFeedbacks",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_goods-feedback.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/goods-feedback/comments",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/goods-feedback/comments"
+      ],
+      "summary": "Получение комментариев к отзыву",
+      "tags": [
+        "goods-feedback",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getGoodsFeedbackComments",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_goods-feedback_comments.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/goods-feedback/comments/delete",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/goods-feedback/comments/delete"
+      ],
+      "summary": "Удаление комментария к отзыву",
+      "tags": [
+        "goods-feedback",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "deleteGoodsFeedbackComment",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_goods-feedback_comments_delete.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/goods-feedback/comments/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/goods-feedback/comments/update"
+      ],
+      "summary": "Добавление нового или изменение созданного комментария",
+      "tags": [
+        "goods-feedback",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updateGoodsFeedbackComment",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_goods-feedback_comments_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/goods-feedback/skip-reaction",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/goods-feedback/skip-reaction"
+      ],
+      "summary": "Пропуск реакции на отзывы",
+      "tags": [
+        "goods-feedback",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "skipGoodsFeedbacksReaction",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_goods-feedback_skip-reaction.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-cards",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-cards"
+      ],
+      "summary": "Получение информации о заполненности карточек магазина",
+      "tags": [
+        "content",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getOfferCardsContentStatus",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-cards.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-cards/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-cards/update"
+      ],
+      "summary": "Редактирование категорийных характеристик товара",
+      "tags": [
+        "content",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "updateOfferContent",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-cards_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-mappings",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-mappings"
+      ],
+      "summary": "Информация о товарах в каталоге",
+      "tags": [
+        "business-offer-mappings",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getOfferMappings",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-mappings.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-mappings/archive",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-mappings/archive"
+      ],
+      "summary": "Добавление товаров в архив",
+      "tags": [
+        "business-offer-mappings",
+        "dbs",
+        "fby",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "addOffersToArchive",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-mappings_archive.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-mappings/delete",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-mappings/delete"
+      ],
+      "summary": "Удаление товаров из каталога",
+      "tags": [
+        "business-offer-mappings",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "deleteOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-mappings_delete.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-mappings/unarchive",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-mappings/unarchive"
+      ],
+      "summary": "Удаление товаров из архива",
+      "tags": [
+        "business-offer-mappings",
+        "dbs",
+        "fby",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "deleteOffersFromArchive",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-mappings_unarchive.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-mappings/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-mappings/update"
+      ],
+      "summary": "Добавление товаров в каталог и изменение информации о них",
+      "tags": [
+        "business-offer-mappings",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "updateOfferMappings",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-mappings_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-prices",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-prices"
+      ],
+      "summary": "Просмотр цен на указанные товары во всех магазинах",
+      "tags": [
+        "prices",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getDefaultPrices",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-prices.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offer-prices/updates",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offer-prices/updates"
+      ],
+      "summary": "Установка цен на товары для всех магазинов",
+      "tags": [
+        "prices",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "updateBusinessPrices",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offer-prices_updates.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/offers/recommendations",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/offers/recommendations"
+      ],
+      "summary": "Рекомендации Маркета, касающиеся цен",
+      "tags": [
+        "offers",
+        "dbs",
+        "fby",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "getOfferRecommendations",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_offers_recommendations.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/price-quarantine",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/price-quarantine"
+      ],
+      "summary": "Список товаров, находящихся в карантине по цене в кабинете",
+      "tags": [
+        "price-quarantine",
+        "dbs",
+        "fby",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "getBusinessQuarantineOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_price-quarantine.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/price-quarantine/confirm",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/price-quarantine/confirm"
+      ],
+      "summary": "Удаление товара из карантина по цене в кабинете",
+      "tags": [
+        "price-quarantine",
+        "dbs",
+        "fby",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "confirmBusinessPrices",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_price-quarantine_confirm.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/promos",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/promos"
+      ],
+      "summary": "Получение списка акций",
+      "tags": [
+        "promos",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getPromos",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_promos.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/promos/offers",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/promos/offers"
+      ],
+      "summary": "Получение списка товаров, которые участвуют или могут участвовать в акции",
+      "tags": [
+        "promos",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getPromoOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_promos_offers.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/promos/offers/delete",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/promos/offers/delete"
+      ],
+      "summary": "Удаление товаров из акции",
+      "tags": [
+        "promos",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "deletePromoOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_promos_offers_delete.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/promos/offers/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/promos/offers/update"
+      ],
+      "summary": "Добавление товаров в акцию или изменение их цен",
+      "tags": [
+        "promos",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updatePromoOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_promos_offers_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/ratings/quality",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/ratings/quality"
+      ],
+      "summary": "Индекс качества магазинов",
+      "tags": [
+        "ratings",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getQualityRatings",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_ratings_quality.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/settings",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/settings"
+      ],
+      "summary": "Настройки кабинета",
+      "tags": [
+        "businesses",
+        "dbs",
+        "fbs",
+        "fby",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getBusinessSettings",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_settings.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/businesses/{businessId}/warehouses",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/warehouses"
+      ],
+      "summary": "Список складов и групп складов",
+      "tags": [
+        "warehouses",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getWarehouses",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_warehouses.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/businesses/{businessId}/warehouses",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/businesses/{businessId}/warehouses"
+      ],
+      "summary": "Список складов",
+      "tags": [
+        "warehouses",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getPagedWarehouses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_businesses_businessId_warehouses.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns"
+      ],
+      "summary": "Список магазинов пользователя",
+      "tags": [
+        "campaigns",
+        "dbs",
+        "express",
+        "fbs",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getCampaigns",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}"
+      ],
+      "summary": "Информация о магазине",
+      "tags": [
+        "campaigns",
+        "dbs",
+        "express",
+        "fbs",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getCampaign",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/bids",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/bids"
+      ],
+      "summary": "Включение буста продаж и установка ставок для магазина",
+      "tags": [
+        "bids",
+        "dbs",
+        "fbs",
+        "express",
+        "fby"
+      ],
+      "operation_id": "putBidsForCampaign",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_bids.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments"
+      ],
+      "summary": "Получение информации о нескольких отгрузках",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "searchShipments",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}"
+      ],
+      "summary": "Получение информации об одной отгрузке",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "getShipment",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/act",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/act"
+      ],
+      "summary": "Получение акта приема-передачи",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "downloadShipmentAct",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_act.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/confirm",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/confirm"
+      ],
+      "summary": "Подтверждение отгрузки",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "confirmShipment",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_confirm.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/discrepancy-act",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/discrepancy-act"
+      ],
+      "summary": "Получение акта расхождений",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "downloadShipmentDiscrepancyAct",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_discrepancy-act.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/inbound-act",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/inbound-act"
+      ],
+      "summary": "Получение фактического акта приема-передачи",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "downloadShipmentInboundAct",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_inbound-act.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/orders/info",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/orders/info"
+      ],
+      "summary": "Получение информации о возможности печати ярлыков",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "getShipmentOrdersInfo",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_orders_info.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/orders/transfer",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/orders/transfer"
+      ],
+      "summary": "Перенос заказов в следующую отгрузку",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "transferOrdersFromShipment",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_orders_transfer.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/pallet/labels",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/pallet/labels"
+      ],
+      "summary": "Ярлыки для доверительной приемки",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "downloadShipmentPalletLabels",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_pallet_labels.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/pallets",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/pallets"
+      ],
+      "summary": "Передача количества упаковок для доверительной приемки",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "setShipmentPalletsCount",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_pallets.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/transportation-waybill",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/first-mile/shipments/{shipmentId}/transportation-waybill"
+      ],
+      "summary": "Получение транспортной накладной",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "downloadShipmentTransportationWaybill",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_first-mile_shipments_shipmentId_transportation-waybill.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/hidden-offers",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/hidden-offers"
+      ],
+      "summary": "Информация о скрытых вами товарах",
+      "tags": [
+        "hidden-offers",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getHiddenOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_hidden-offers.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/hidden-offers",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/hidden-offers"
+      ],
+      "summary": "Скрытие товаров и настройки скрытия",
+      "tags": [
+        "hidden-offers",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "addHiddenOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_hidden-offers.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/hidden-offers/delete",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/hidden-offers/delete"
+      ],
+      "summary": "Возобновление показа товаров",
+      "tags": [
+        "hidden-offers",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "deleteHiddenOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_hidden-offers_delete.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/offer-prices",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offer-prices"
+      ],
+      "summary": "Список цен",
+      "tags": [
+        "prices",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getPrices",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offer-prices.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/offer-prices",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offer-prices"
+      ],
+      "summary": "Просмотр цен на указанные товары в конкретном магазине",
+      "tags": [
+        "prices",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getPricesByOfferIds",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offer-prices.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/offer-prices/updates",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offer-prices/updates"
+      ],
+      "summary": "Установка цен на товары в конкретном магазине",
+      "tags": [
+        "prices",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "updatePrices",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offer-prices_updates.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/offers",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offers"
+      ],
+      "summary": "Информация о товарах, которые размещены в заданном магазине",
+      "tags": [
+        "offers",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getCampaignOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offers.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/offers/delete",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offers/delete"
+      ],
+      "summary": "Удаление товаров из ассортимента магазина",
+      "tags": [
+        "offers",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "deleteCampaignOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offers_delete.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/offers/stocks",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offers/stocks"
+      ],
+      "summary": "Информация об остатках и оборачиваемости",
+      "tags": [
+        "stocks",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getStocks",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offers_stocks.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/offers/stocks",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offers/stocks"
+      ],
+      "summary": "Передача информации об остатках",
+      "tags": [
+        "stocks",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updateStocks",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offers_stocks.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/offers/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/offers/update"
+      ],
+      "summary": "Изменение условий продажи товаров в магазине",
+      "tags": [
+        "offers",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "updateCampaignOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_offers_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders"
+      ],
+      "summary": "Информация о заказах в магазине",
+      "tags": [
+        "orders",
+        "fbs",
+        "dbs",
+        "fby",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getOrders",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/status-update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/status-update"
+      ],
+      "summary": "Изменение статусов нескольких заказов",
+      "tags": [
+        "orders",
+        "fbs",
+        "dbs",
+        "laas",
+        "express"
+      ],
+      "operation_id": "updateOrderStatuses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_status-update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}"
+      ],
+      "summary": "Информация об одном заказе в магазине",
+      "tags": [
+        "orders",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getOrder",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/boxes",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/boxes"
+      ],
+      "summary": "Подготовка заказа",
+      "tags": [
+        "orders",
+        "fbs",
+        "express",
+        "dbs"
+      ],
+      "operation_id": "setOrderBoxLayout",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_boxes.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/business-buyer",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/business-buyer"
+      ],
+      "summary": "Информация о покупателе — юридическом лице",
+      "tags": [
+        "order-business-information",
+        "fbs",
+        "fby",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getOrderBusinessBuyerInfo",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_business-buyer.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/buyer",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/buyer"
+      ],
+      "summary": "Информация о покупателе — физическом лице",
+      "tags": [
+        "order-delivery",
+        "dbs"
+      ],
+      "operation_id": "getOrderBuyerInfo",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_buyer.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/cancellation/accept",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/cancellation/accept"
+      ],
+      "summary": "Отмена заказа покупателем",
+      "tags": [
+        "orders",
+        "dbs"
+      ],
+      "operation_id": "acceptOrderCancellation",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_cancellation_accept.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/deliverDigitalGoods",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/deliverDigitalGoods"
+      ],
+      "summary": "Передача ключей цифровых товаров",
+      "tags": [
+        "orders",
+        "dbs"
+      ],
+      "operation_id": "provideOrderDigitalCodes",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_deliverDigitalGoods.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/delivery/date",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/delivery/date"
+      ],
+      "summary": "Изменение даты доставки заказа",
+      "tags": [
+        "order-delivery",
+        "dbs"
+      ],
+      "operation_id": "setOrderDeliveryDate",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_delivery_date.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/delivery/labels",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/delivery/labels"
+      ],
+      "summary": "Готовые ярлыки‑наклейки на все коробки в одном заказе",
+      "tags": [
+        "order-labels",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateOrderLabels",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_delivery_labels.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/delivery/labels/data",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/delivery/labels/data"
+      ],
+      "summary": "Данные для самостоятельного изготовления ярлыков",
+      "tags": [
+        "order-labels",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getOrderLabelsData",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_delivery_labels_data.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/delivery/shipments/{shipmentId}/boxes",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/delivery/shipments/{shipmentId}/boxes"
+      ],
+      "summary": "Передача количества грузовых мест в заказе",
+      "tags": [
+        "orders",
+        "dbs"
+      ],
+      "operation_id": "setOrderShipmentBoxes",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_delivery_shipments_shipmentId_boxes.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/delivery/shipments/{shipmentId}/boxes/{boxId}/label",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/delivery/shipments/{shipmentId}/boxes/{boxId}/label"
+      ],
+      "summary": "Готовый ярлык‑наклейка для коробки в заказе",
+      "tags": [
+        "order-labels",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateOrderLabel",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_delivery_shipments_shipmentId_boxes_boxId_label.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/delivery/storage-limit",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/delivery/storage-limit"
+      ],
+      "summary": "Продление срока хранения заказа",
+      "tags": [
+        "order-delivery",
+        "dbs"
+      ],
+      "operation_id": "updateOrderStorageLimit",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_delivery_storage-limit.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/delivery/track",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/delivery/track"
+      ],
+      "summary": "Передача трек‑номера посылки",
+      "tags": [
+        "order-delivery",
+        "dbs"
+      ],
+      "operation_id": "setOrderDeliveryTrackCode",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_delivery_track.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/documents",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/documents"
+      ],
+      "summary": "Информация о документах",
+      "tags": [
+        "order-business-information",
+        "fbs",
+        "fby",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getOrderBusinessDocumentsInfo",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_documents.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/external-id",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/external-id"
+      ],
+      "summary": "Передача внешнего идентификатора заказа",
+      "tags": [
+        "orders",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updateExternalOrderId",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_external-id.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/identifiers",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/identifiers"
+      ],
+      "summary": "Передача кодов маркировки единиц товара",
+      "tags": [
+        "orders",
+        "dbs"
+      ],
+      "operation_id": "provideOrderItemIdentifiers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_identifiers.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/identifiers/status",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/identifiers/status"
+      ],
+      "summary": "Статусы проверки кодов маркировки",
+      "tags": [
+        "orders",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getOrderIdentifiersStatus",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_identifiers_status.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/items",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/items"
+      ],
+      "summary": "Удаление товаров из заказа или уменьшение их числа",
+      "tags": [
+        "orders",
+        "dbs"
+      ],
+      "operation_id": "updateOrderItems",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_items.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}"
+      ],
+      "summary": "Информация о невыкупе или возврате",
+      "tags": [
+        "returns",
+        "fbs",
+        "dbs",
+        "express",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getReturn",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_returns_returnId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/application",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/application"
+      ],
+      "summary": "Получение заявления на возврат",
+      "tags": [
+        "returns",
+        "fbs",
+        "fby",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getReturnApplication",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_returns_returnId_application.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/decision",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/decision"
+      ],
+      "summary": "Принятие или изменение решения по возврату",
+      "tags": [
+        "returns",
+        "dbs"
+      ],
+      "operation_id": "setReturnDecision",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_returns_returnId_decision.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/decision/submit",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/decision/submit"
+      ],
+      "summary": "Передача решения по возврату",
+      "tags": [
+        "returns",
+        "dbs",
+        "fbs",
+        "express",
+        "fby"
+      ],
+      "operation_id": "submitReturnDecision",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_returns_returnId_decision_submit.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/decision/{itemId}/image/{imageHash}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/returns/{returnId}/decision/{itemId}/image/{imageHash}"
+      ],
+      "summary": "Получение фотографий товаров в возврате",
+      "tags": [
+        "returns",
+        "fbs",
+        "dbs",
+        "express",
+        "fby"
+      ],
+      "operation_id": "getReturnPhoto",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_returns_returnId_decision_itemId_image_imageHash.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/status",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/status"
+      ],
+      "summary": "Изменение статуса одного заказа",
+      "tags": [
+        "orders",
+        "fbs",
+        "dbs",
+        "laas",
+        "express"
+      ],
+      "operation_id": "updateOrderStatus",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_status.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/orders/{orderId}/verifyEac",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/orders/{orderId}/verifyEac"
+      ],
+      "summary": "Передача кода подтверждения",
+      "tags": [
+        "order-delivery",
+        "express"
+      ],
+      "operation_id": "verifyOrderEac",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_orders_orderId_verifyEac.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/outlets",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets"
+      ],
+      "summary": "Информация о нескольких точках продаж",
+      "tags": [
+        "outlets",
+        "dbs"
+      ],
+      "operation_id": "getOutlets",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/outlets",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets"
+      ],
+      "summary": "Создание точки продаж",
+      "tags": [
+        "outlets",
+        "dbs"
+      ],
+      "operation_id": "createOutlet",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "DELETE",
+      "path": "/v2/campaigns/{campaignId}/outlets/licenses",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets/licenses"
+      ],
+      "summary": "Удаление лицензий для точек продаж",
+      "tags": [
+        "outlet-licenses",
+        "dbs"
+      ],
+      "operation_id": "deleteOutletLicenses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets_licenses.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/outlets/licenses",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets/licenses"
+      ],
+      "summary": "Информация о лицензиях для точек продаж",
+      "tags": [
+        "outlet-licenses",
+        "dbs"
+      ],
+      "operation_id": "getOutletLicenses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets_licenses.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/outlets/licenses",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets/licenses"
+      ],
+      "summary": "Создание и изменение лицензий для точек продаж",
+      "tags": [
+        "outlet-licenses",
+        "dbs"
+      ],
+      "operation_id": "updateOutletLicenses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets_licenses.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "DELETE",
+      "path": "/v2/campaigns/{campaignId}/outlets/{outletId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets/{outletId}"
+      ],
+      "summary": "Удаление точки продаж",
+      "tags": [
+        "outlets",
+        "dbs"
+      ],
+      "operation_id": "deleteOutlet",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets_outletId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/outlets/{outletId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets/{outletId}"
+      ],
+      "summary": "Информация об одной точке продаж",
+      "tags": [
+        "outlets",
+        "dbs"
+      ],
+      "operation_id": "getOutlet",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets_outletId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "PUT",
+      "path": "/v2/campaigns/{campaignId}/outlets/{outletId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/outlets/{outletId}"
+      ],
+      "summary": "Изменение информации о точке продаж",
+      "tags": [
+        "outlets",
+        "dbs"
+      ],
+      "operation_id": "updateOutlet",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_outlets_outletId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/price-quarantine",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/price-quarantine"
+      ],
+      "summary": "Список товаров, находящихся в карантине по цене в магазине",
+      "tags": [
+        "price-quarantine",
+        "dbs",
+        "fby",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "getCampaignQuarantineOffers",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_price-quarantine.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/price-quarantine/confirm",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/price-quarantine/confirm"
+      ],
+      "summary": "Удаление товара из карантина по цене в магазине",
+      "tags": [
+        "price-quarantine",
+        "dbs",
+        "fby",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "confirmCampaignPrices",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_price-quarantine_confirm.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/ratings/quality/details",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/ratings/quality/details"
+      ],
+      "summary": "Заказы, которые повлияли на индекс качества",
+      "tags": [
+        "ratings",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getQualityRatingDetails",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_ratings_quality_details.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/returns",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/returns"
+      ],
+      "summary": "Список невыкупов и возвратов",
+      "tags": [
+        "returns",
+        "fbs",
+        "dbs",
+        "express",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getReturns",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_returns.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/settings",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/settings"
+      ],
+      "summary": "Настройки магазина",
+      "tags": [
+        "campaigns",
+        "dbs",
+        "fbs",
+        "express",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getCampaignSettings",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_settings.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/campaigns/{campaignId}/shipments/reception-transfer-act",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/shipments/reception-transfer-act"
+      ],
+      "summary": "Подтверждение ближайшей отгрузки и получение акта приема-передачи для нее",
+      "tags": [
+        "shipments",
+        "fbs"
+      ],
+      "operation_id": "downloadShipmentReceptionTransferAct",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_shipments_reception-transfer-act.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/stats/orders",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/stats/orders"
+      ],
+      "summary": "Детальная информация по заказам",
+      "tags": [
+        "orders-stats",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getOrdersStats",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_stats_orders.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/stats/skus",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/stats/skus"
+      ],
+      "summary": "Отчет по товарам",
+      "tags": [
+        "goods-stats",
+        "fby",
+        "fbs",
+        "express",
+        "dbs"
+      ],
+      "operation_id": "getGoodsStats",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_stats_skus.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/supply-requests",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/supply-requests"
+      ],
+      "summary": "Получение информации о заявках на поставку, вывоз и утилизацию",
+      "tags": [
+        "supply-requests",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getSupplyRequests",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_supply-requests.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/supply-requests/documents",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/supply-requests/documents"
+      ],
+      "summary": "Получение документов по заявке на поставку, вывоз или утилизацию",
+      "tags": [
+        "supply-requests",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getSupplyRequestDocuments",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_supply-requests_documents.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/supply-requests/items",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/supply-requests/items"
+      ],
+      "summary": "Получение товаров в заявке на поставку, вывоз или утилизацию",
+      "tags": [
+        "supply-requests",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getSupplyRequestItems",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_supply-requests_items.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/campaigns/{campaignId}/warehouse/status",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/campaigns/{campaignId}/warehouse/status"
+      ],
+      "summary": "Изменение статуса склада",
+      "tags": [
+        "warehouses",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updateWarehouseStatus",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_campaigns_campaignId_warehouse_status.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/categories/max-sale-quantum",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/categories/max-sale-quantum"
+      ],
+      "summary": "Лимит на установку кванта продажи и минимального количества товаров в заказе",
+      "tags": [
+        "categories",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getCategoriesMaxSaleQuantum",
+      "deprecated": true,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_categories_max-sale-quantum.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/categories/tree",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/categories/tree"
+      ],
+      "summary": "Дерево категорий",
+      "tags": [
+        "categories",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getCategoriesTree",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_categories_tree.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/category/{categoryId}/parameters",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/category/{categoryId}/parameters"
+      ],
+      "summary": "Списки характеристик товаров по категориям",
+      "tags": [
+        "content",
+        "dbs",
+        "fby",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getCategoryContentParameters",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_category_categoryId_parameters.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/delivery/services",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/delivery/services"
+      ],
+      "summary": "Справочник служб доставки",
+      "tags": [
+        "delivery-services",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getDeliveryServices",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_delivery_services.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/regions",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/regions"
+      ],
+      "summary": "Поиск регионов по их имени",
+      "tags": [
+        "regions",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "searchRegionsByName",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_regions.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/regions/countries",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/regions/countries"
+      ],
+      "summary": "Список допустимых кодов стран",
+      "tags": [
+        "regions",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getRegionsCodes",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_regions_countries.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/regions/{regionId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/regions/{regionId}"
+      ],
+      "summary": "Информация о регионе",
+      "tags": [
+        "regions",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "searchRegionsById",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_regions_regionId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/regions/{regionId}/children",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/regions/{regionId}/children"
+      ],
+      "summary": "Информация о дочерних регионах",
+      "tags": [
+        "regions",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "searchRegionChildren",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_regions_regionId_children.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/banners-statistics/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/banners-statistics/generate"
+      ],
+      "summary": "Отчет по охватному продвижению",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateBannersStatisticsReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_banners-statistics_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/boost-consolidated/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/boost-consolidated/generate"
+      ],
+      "summary": "Отчет по бусту продаж",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateBoostConsolidatedReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_boost-consolidated_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/closure-documents/detalization/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/closure-documents/detalization/generate"
+      ],
+      "summary": "Отчет по схождению с закрывающими документами",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "generateClosureDocumentsDetalizationReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_closure-documents_detalization_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/closure-documents/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/closure-documents/generate"
+      ],
+      "summary": "Закрывающие документы",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "generateClosureDocumentsReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_closure-documents_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/competitors-position/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/competitors-position/generate"
+      ],
+      "summary": "Отчет «Конкурентная позиция»",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "generateCompetitorsPositionReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_competitors-position_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/documents/labels/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/documents/labels/generate"
+      ],
+      "summary": "Готовые ярлыки‑наклейки на все коробки в нескольких заказах",
+      "tags": [
+        "reports",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateMassOrderLabelsReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_documents_labels_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/documents/shipment-list/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/documents/shipment-list/generate"
+      ],
+      "summary": "Получение листа сборки",
+      "tags": [
+        "reports",
+        "fbs"
+      ],
+      "operation_id": "generateShipmentListDocumentReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_documents_shipment-list_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/goods-feedback/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/goods-feedback/generate"
+      ],
+      "summary": "Отчет по отзывам о товарах",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateGoodsFeedbackReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_goods-feedback_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/goods-movement/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/goods-movement/generate"
+      ],
+      "summary": "Отчет по движению товаров",
+      "tags": [
+        "reports",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "generateGoodsMovementReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_goods-movement_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/goods-prices/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/goods-prices/generate"
+      ],
+      "summary": "Отчет «Цены»",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateGoodsPricesReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_goods-prices_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/goods-realization/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/goods-realization/generate"
+      ],
+      "summary": "Отчет по реализации",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "express",
+        "dbs"
+      ],
+      "operation_id": "generateGoodsRealizationReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_goods-realization_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/goods-turnover/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/goods-turnover/generate"
+      ],
+      "summary": "Отчет по оборачиваемости",
+      "tags": [
+        "reports",
+        "fby"
+      ],
+      "operation_id": "generateGoodsTurnoverReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_goods-turnover_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/reports/info/{reportId}",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/info/{reportId}"
+      ],
+      "summary": "Получение заданного отчета или документа",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "getReportInfo",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_info_reportId.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/jewelry-fiscal/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/jewelry-fiscal/generate"
+      ],
+      "summary": "Отчет по заказам с ювелирными изделиями",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateJewelryFiscalReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_jewelry-fiscal_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/key-indicators/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/key-indicators/generate"
+      ],
+      "summary": "Отчет по ключевым показателям",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateKeyIndicatorsReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_key-indicators_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/sales-geography/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/sales-geography/generate"
+      ],
+      "summary": "Отчет по географии продаж",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateSalesGeographyReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_sales-geography_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/shelf-statistics/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/shelf-statistics/generate"
+      ],
+      "summary": "Отчет по полкам",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateShelfsStatisticsReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_shelf-statistics_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/shows-boost/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/shows-boost/generate"
+      ],
+      "summary": "Отчет по бусту показов",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateShowsBoostReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_shows-boost_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/shows-sales/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/shows-sales/generate"
+      ],
+      "summary": "Отчет «Аналитика продаж»",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "generateShowsSalesReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_shows-sales_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/stocks-on-warehouses/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/stocks-on-warehouses/generate"
+      ],
+      "summary": "Отчет по остаткам на складах",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "generateStocksOnWarehousesReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_stocks-on-warehouses_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/united-marketplace-services/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/united-marketplace-services/generate"
+      ],
+      "summary": "Отчет по стоимости услуг",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "generateUnitedMarketplaceServicesReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_united-marketplace-services_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/united-netting/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/united-netting/generate"
+      ],
+      "summary": "Отчет по платежам",
+      "tags": [
+        "reports",
+        "fby",
+        "dbs",
+        "fbs",
+        "express"
+      ],
+      "operation_id": "generateUnitedNettingReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_united-netting_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/united-orders/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/united-orders/generate"
+      ],
+      "summary": "Отчет по заказам",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateUnitedOrdersReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_united-orders_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/reports/united-returns/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/reports/united-returns/generate"
+      ],
+      "summary": "Отчет по невыкупам и возвратам",
+      "tags": [
+        "reports",
+        "fby",
+        "fbs",
+        "dbs",
+        "express",
+        "laas"
+      ],
+      "operation_id": "generateUnitedReturnsReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_reports_united-returns_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v2/tariffs/calculate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/tariffs/calculate"
+      ],
+      "summary": "Калькулятор стоимости услуг",
+      "tags": [
+        "tariffs",
+        "fbs",
+        "fby",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "calculateTariffs",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_tariffs_calculate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "GET",
+      "path": "/v2/warehouses",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v2/warehouses"
+      ],
+      "summary": "Идентификаторы фулфилмент-складов Маркета",
+      "tags": [
+        "warehouses",
+        "fby",
+        "laas"
+      ],
+      "operation_id": "getFulfillmentWarehouses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v2_warehouses.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v3/businesses/{businessId}/offers/stocks",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v3/businesses/{businessId}/offers/stocks"
+      ],
+      "summary": "Информация об остатках",
+      "tags": [
+        "stocks",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getStocksOnPartnerWarehouses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v3_businesses_businessId_offers_stocks.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v3/businesses/{businessId}/offers/stocks/update",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v3/businesses/{businessId}/offers/stocks/update"
+      ],
+      "summary": "Передача информации об остатках",
+      "tags": [
+        "stocks",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updateStocksOnPartnerWarehouses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v3_businesses_businessId_offers_stocks_update.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v3/businesses/{businessId}/reports/stocks/generate",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v3/businesses/{businessId}/reports/stocks/generate"
+      ],
+      "summary": "Отчет по остаткам на складах партнера",
+      "tags": [
+        "reports",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "generateStocksReport",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v3_businesses_businessId_reports_stocks_generate.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v3/businesses/{businessId}/warehouse/models/status",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v3/businesses/{businessId}/warehouse/models/status"
+      ],
+      "summary": "Включение/выключение модели работы склада",
+      "tags": [
+        "warehouses",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "updateWarehouseModelStatus",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v3_businesses_businessId_warehouse_models_status.yaml"
+    },
+    {
+      "marketplace": "yandex-market",
+      "category": "partner-api",
+      "method": "POST",
+      "path": "/v3/businesses/{businessId}/warehouses",
+      "base_urls": [
+        "https://api.partner.market.yandex.ru"
+      ],
+      "urls": [
+        "https://api.partner.market.yandex.ru/v3/businesses/{businessId}/warehouses"
+      ],
+      "summary": "Список складов",
+      "tags": [
+        "warehouses",
+        "fbs",
+        "dbs",
+        "express"
+      ],
+      "operation_id": "getPartnerWarehouses",
+      "deprecated": false,
+      "official_docs": "https://yandex.ru/dev/market/partner-api/doc/ru/",
+      "source_file": "paths/v3_businesses_businessId_warehouses.yaml"
+    }
+  ]
+}
